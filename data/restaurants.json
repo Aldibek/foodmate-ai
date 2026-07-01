@@ -1,0 +1,66 @@
+[
+  {
+    "id": "green-bowl",
+    "name": "Green Bowl",
+    "cuisine": "healthy",
+    "city": "Almaty",
+    "rating": 4.8,
+    "deliveryMinutes": 24,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["vegan", "low calorie", "lunch"],
+    "menu": [
+      { "id": "gb-1", "name": "Quinoa power bowl", "price": 2990, "calories": 520, "category": "bowls" },
+      { "id": "gb-2", "name": "Avocado toast set", "price": 2490, "calories": 430, "category": "breakfast" },
+      { "id": "gb-3", "name": "Berry protein smoothie", "price": 1790, "calories": 260, "category": "drinks" }
+    ]
+  },
+  {
+    "id": "nomad-grill",
+    "name": "Nomad Grill",
+    "cuisine": "grill",
+    "city": "Astana",
+    "rating": 4.7,
+    "deliveryMinutes": 32,
+    "priceLevel": "$$$",
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["meat", "dinner", "family"],
+    "menu": [
+      { "id": "ng-1", "name": "Ribeye steak box", "price": 6990, "calories": 850, "category": "grill" },
+      { "id": "ng-2", "name": "Chicken shashlik plate", "price": 3890, "calories": 640, "category": "grill" },
+      { "id": "ng-3", "name": "Charred vegetable side", "price": 1490, "calories": 210, "category": "sides" }
+    ]
+  },
+  {
+    "id": "tokyo-corner",
+    "name": "Tokyo Corner",
+    "cuisine": "asian",
+    "city": "Almaty",
+    "rating": 4.6,
+    "deliveryMinutes": 28,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["sushi", "ramen", "date"],
+    "menu": [
+      { "id": "tc-1", "name": "Salmon sushi set", "price": 4590, "calories": 610, "category": "sushi" },
+      { "id": "tc-2", "name": "Spicy miso ramen", "price": 3490, "calories": 730, "category": "ramen" },
+      { "id": "tc-3", "name": "Mango mochi", "price": 1690, "calories": 240, "category": "dessert" }
+    ]
+  },
+  {
+    "id": "bella-pasta",
+    "name": "Bella Pasta",
+    "cuisine": "italian",
+    "city": "Shymkent",
+    "rating": 4.5,
+    "deliveryMinutes": 35,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["pasta", "pizza", "comfort"],
+    "menu": [
+      { "id": "bp-1", "name": "Truffle tagliatelle", "price": 3990, "calories": 680, "category": "pasta" },
+      { "id": "bp-2", "name": "Margherita pizza", "price": 3290, "calories": 790, "category": "pizza" },
+      { "id": "bp-3", "name": "Tiramisu cup", "price": 1890, "calories": 410, "category": "dessert" }
+    ]
+  }
+]

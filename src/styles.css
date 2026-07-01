@@ -1,0 +1,403 @@
+:root {
+  color: #1f2523;
+  background: #f6f7f2;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+select,
+textarea,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+main {
+  width: min(1240px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 28px 0 48px;
+}
+
+.hero {
+  min-height: 360px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 260px;
+  align-items: end;
+  gap: 28px;
+  padding: 36px;
+  border-radius: 8px;
+  color: #fff;
+  background:
+    linear-gradient(90deg, rgba(18, 28, 24, 0.82), rgba(18, 28, 24, 0.35)),
+    url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1800&q=80") center/cover;
+}
+
+.eyebrow {
+  display: inline-flex;
+  margin-bottom: 14px;
+  color: #d8f7b9;
+  font-size: 0.86rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1 {
+  max-width: 680px;
+  font-size: clamp(3rem, 9vw, 6.2rem);
+  line-height: 0.94;
+  letter-spacing: 0;
+}
+
+.hero p {
+  max-width: 620px;
+  margin-top: 18px;
+  color: #eef6ef;
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 14px;
+  padding: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+}
+
+.hero-stats strong {
+  font-size: 2rem;
+}
+
+.hero-stats span {
+  align-self: center;
+  color: #eef6ef;
+  font-size: 0.9rem;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.4fr auto;
+  gap: 12px;
+  margin: 18px 0;
+}
+
+.filters label,
+.filter-status {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 14px;
+  border: 1px solid #dfe3d7;
+  border-radius: 8px;
+  background: #fff;
+}
+
+select,
+textarea {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  color: #1f2523;
+  background: transparent;
+}
+
+.range-control input {
+  width: 100%;
+  accent-color: #23684b;
+}
+
+.filter-status {
+  color: #23684b;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 18px;
+  align-items: start;
+}
+
+.catalog,
+.side-stack {
+  display: grid;
+  gap: 16px;
+}
+
+.restaurant-card,
+.cart-panel,
+.assistant-panel {
+  border: 1px solid #dfe3d7;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 12px 28px rgba(31, 37, 35, 0.06);
+}
+
+.restaurant-card {
+  overflow: hidden;
+}
+
+.restaurant-card img {
+  width: 100%;
+  height: 260px;
+  display: block;
+  object-fit: cover;
+}
+
+.restaurant-content {
+  padding: 18px;
+}
+
+.restaurant-head,
+.dish-row,
+.cart-row,
+.cart-total,
+.panel-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.restaurant-head h3 {
+  font-size: 1.32rem;
+}
+
+.restaurant-head p,
+.dish-row small,
+.cart-row small,
+.empty,
+.success,
+.empty-results {
+  color: #64706a;
+}
+
+.rating,
+.meta-row span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.rating {
+  color: #7a5610;
+  font-weight: 800;
+}
+
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0;
+}
+
+.meta-row span {
+  min-height: 30px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: #eef2e8;
+  color: #34443d;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.menu-list {
+  display: grid;
+  gap: 10px;
+}
+
+.dish-row {
+  min-height: 62px;
+  padding: 12px;
+  border: 1px solid #edf0e8;
+  border-radius: 8px;
+}
+
+.dish-row div,
+.cart-row div {
+  display: grid;
+  gap: 4px;
+}
+
+.dish-row button,
+.checkout,
+.assistant-form button {
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 0;
+  border-radius: 8px;
+  background: #23684b;
+  color: #fff;
+  font-weight: 800;
+}
+
+.dish-row button {
+  min-width: 138px;
+  padding: 0 12px;
+}
+
+.cart-panel,
+.assistant-panel {
+  padding: 18px;
+}
+
+.panel-title {
+  justify-content: flex-start;
+  margin-bottom: 14px;
+}
+
+.panel-title h2 {
+  font-size: 1.1rem;
+}
+
+.cart-list {
+  display: grid;
+  gap: 8px;
+}
+
+.cart-row {
+  padding: 10px 0;
+  border-bottom: 1px solid #edf0e8;
+}
+
+.cart-row button {
+  width: 36px;
+  height: 36px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid #dfe3d7;
+  border-radius: 8px;
+  background: #fff;
+  color: #8c2f25;
+}
+
+.cart-total {
+  margin: 16px 0 12px;
+}
+
+.checkout {
+  width: 100%;
+}
+
+.checkout:disabled,
+.assistant-form button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.success {
+  margin-top: 10px;
+  color: #23684b;
+  font-weight: 800;
+}
+
+.assistant-form {
+  display: grid;
+  gap: 10px;
+}
+
+textarea {
+  min-height: 98px;
+  resize: vertical;
+  padding: 12px;
+  border: 1px solid #dfe3d7;
+  border-radius: 8px;
+  line-height: 1.45;
+}
+
+.answer {
+  margin-top: 14px;
+  padding: 14px;
+  border-radius: 8px;
+  background: #f1f5ed;
+  line-height: 1.5;
+}
+
+.tool-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.tool-list span {
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: #fff;
+  color: #23684b;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.empty-results {
+  padding: 24px;
+  border: 1px dashed #bdc6b7;
+  border-radius: 8px;
+  background: #fff;
+}
+
+@media (max-width: 900px) {
+  main {
+    width: min(100% - 20px, 720px);
+    padding-top: 10px;
+  }
+
+  .hero,
+  .workspace,
+  .filters {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: 520px;
+    padding: 24px;
+  }
+
+  .filter-status {
+    white-space: normal;
+  }
+
+  .restaurant-card img {
+    height: 220px;
+  }
+
+  .dish-row {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .dish-row button {
+    width: 100%;
+  }
+}
