@@ -45,7 +45,6 @@ describe("FoodMate app", () => {
     await user.click(screen.getByRole("button", { name: "Create order" }));
 
     expect(screen.getByText("Delivery address")).toBeInTheDocument();
-    expect(screen.getAllByPlaceholderText("create order").length).toBeGreaterThan(0);
     expect(screen.getByPlaceholderText("Almaty, street, house, apartment")).toBeInTheDocument();
   });
 });

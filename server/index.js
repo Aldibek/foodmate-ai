@@ -30,7 +30,7 @@ app.get("/api/restaurants/:id", (request, response) => {
 
 app.post("/api/orders", (request, response) => {
   const { items = [], customer = {} } = request.body;
-  if (!customer.address || customer.address.trim().length < 6) {
+  if (!customer.address || customer.address.trim().length < 3) {
     response.status(400).json({ error: "Delivery address is required" });
     return;
   }

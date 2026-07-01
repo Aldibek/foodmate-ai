@@ -2,17 +2,13 @@ import { MapPin, ShoppingBag, Trash2, X } from "lucide-react";
 import { useState } from "react";
 
 export function Cart({ items, onRemove, onCheckout, order }) {
-  const [command, setCommand] = useState("");
-  const [commandError, setCommandError] = useState("");
   const [isAddressOpen, setIsAddressOpen] = useState(false);
   const [customer, setCustomer] = useState({ name: "", phone: "", address: "", note: "" });
   const total = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
-  const canCreateOrder = items.length > 0 && command.trim().toLowerCase() === "create order";
-  const canSubmitAddress = canCreateOrder && customer.address.trim().length >= 6;
+  const canSubmitAddress = customer.address.trim().length >= 3;
 
   function openAddressForm() {
     if (!items.length) return;
-    setCommandError("");
     setIsAddressOpen(true);
   }
 
@@ -20,25 +16,11 @@ export function Cart({ items, onRemove, onCheckout, order }) {
     event.preventDefault();
     if (!canSubmitAddress) return;
     await onCheckout(customer);
-    setCommand("");
     setCustomer({ name: "", phone: "", address: "", note: "" });
     setIsAddressOpen(false);
   }
 
   const updateCustomer = (key, value) => setCustomer((current) => ({ ...current, [key]: value }));
-
-  function updateCommand(value) {
-    setCommand(value);
-    if (value.trim().toLowerCase() === "create order") {
-      setCommandError("");
-    }
-  }
-
-  function handleCommandKeyDown(event) {
-    if (event.key === "Enter") {
-      event.preventDefault();
-    }
-  }
 
   return (
     <aside className="cart-panel">
@@ -67,16 +49,6 @@ export function Cart({ items, onRemove, onCheckout, order }) {
         <span>Total</span>
         <strong>{total.toLocaleString("ru-RU")} KZT</strong>
       </div>
-      <label className="command-field">
-        <span>Order command</span>
-        <input
-          type="text"
-          value={command}
-          placeholder="create order"
-          onChange={(event) => updateCommand(event.target.value)}
-          onKeyDown={handleCommandKeyDown}
-        />
-      </label>
       <button className="checkout" type="button" disabled={!items.length} onClick={openAddressForm}>
         Create order
       </button>
@@ -98,17 +70,6 @@ export function Cart({ items, onRemove, onCheckout, order }) {
                 <X size={18} />
               </button>
             </div>
-            <label>
-              <span>Type create order *</span>
-              <input
-                required
-                value={command}
-                onChange={(event) => updateCommand(event.target.value)}
-                onKeyDown={handleCommandKeyDown}
-                placeholder="create order"
-              />
-            </label>
-            {!canCreateOrder && command && <p className="command-error">Type create order exactly.</p>}
             <label>
               <span>Name</span>
               <input value={customer.name} onChange={(event) => updateCustomer("name", event.target.value)} placeholder="Your name" />
