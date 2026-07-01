@@ -36,19 +36,16 @@ describe("FoodMate app", () => {
     expect(screen.getByText("Demo noodles")).toBeInTheDocument();
   });
 
-  it("opens address form after create order command", async () => {
+  it("opens address form from create order button", async () => {
     const user = userEvent.setup();
     render(<App />);
     await waitFor(() => expect(screen.getByText("Demo Kitchen")).toBeInTheDocument());
 
     await user.click(screen.getByRole("button", { name: /add demo noodles/i }));
     await user.click(screen.getByRole("button", { name: "Create order" }));
-    expect(screen.getByText("Type create order to continue.")).toBeInTheDocument();
-
-    await user.type(screen.getByPlaceholderText("create order"), "create order");
-    await user.keyboard("{Enter}");
 
     expect(screen.getByText("Delivery address")).toBeInTheDocument();
+    expect(screen.getAllByPlaceholderText("create order").length).toBeGreaterThan(0);
     expect(screen.getByPlaceholderText("Almaty, street, house, apartment")).toBeInTheDocument();
   });
 });

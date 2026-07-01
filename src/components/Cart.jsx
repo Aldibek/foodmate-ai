@@ -8,14 +8,10 @@ export function Cart({ items, onRemove, onCheckout, order }) {
   const [customer, setCustomer] = useState({ name: "", phone: "", address: "", note: "" });
   const total = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
   const canCreateOrder = items.length > 0 && command.trim().toLowerCase() === "create order";
-  const canSubmitAddress = customer.address.trim().length >= 6;
+  const canSubmitAddress = canCreateOrder && customer.address.trim().length >= 6;
 
   function openAddressForm() {
     if (!items.length) return;
-    if (!canCreateOrder) {
-      setCommandError("Type create order to continue.");
-      return;
-    }
     setCommandError("");
     setIsAddressOpen(true);
   }
@@ -41,7 +37,6 @@ export function Cart({ items, onRemove, onCheckout, order }) {
   function handleCommandKeyDown(event) {
     if (event.key === "Enter") {
       event.preventDefault();
-      openAddressForm();
     }
   }
 
@@ -73,7 +68,7 @@ export function Cart({ items, onRemove, onCheckout, order }) {
         <strong>{total.toLocaleString("ru-RU")} KZT</strong>
       </div>
       <label className="command-field">
-        <span>Type command</span>
+        <span>Order command</span>
         <input
           type="text"
           value={command}
@@ -82,7 +77,6 @@ export function Cart({ items, onRemove, onCheckout, order }) {
           onKeyDown={handleCommandKeyDown}
         />
       </label>
-      {commandError && <p className="command-error">{commandError}</p>}
       <button className="checkout" type="button" disabled={!items.length} onClick={openAddressForm}>
         Create order
       </button>
@@ -104,6 +98,17 @@ export function Cart({ items, onRemove, onCheckout, order }) {
                 <X size={18} />
               </button>
             </div>
+            <label>
+              <span>Type create order *</span>
+              <input
+                required
+                value={command}
+                onChange={(event) => updateCommand(event.target.value)}
+                onKeyDown={handleCommandKeyDown}
+                placeholder="create order"
+              />
+            </label>
+            {!canCreateOrder && command && <p className="command-error">Type create order exactly.</p>}
             <label>
               <span>Name</span>
               <input value={customer.name} onChange={(event) => updateCustomer("name", event.target.value)} placeholder="Your name" />
