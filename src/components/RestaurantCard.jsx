@@ -8,7 +8,7 @@ export function RestaurantCard({ restaurant, onAdd }) {
         <div className="restaurant-head">
           <div>
             <h3>{restaurant.name}</h3>
-            <p>{restaurant.cuisine} cuisine · {restaurant.city}</p>
+            <p>{restaurant.cuisine} cuisine · {restaurant.city} · {restaurant.district}</p>
           </div>
           <span className="rating"><Star size={15} fill="currentColor" />{restaurant.rating}</span>
         </div>
@@ -31,6 +31,9 @@ export function RestaurantCard({ restaurant, onAdd }) {
             </div>
           ))}
         </div>
+        <a className="source-link" href={restaurant.sourceUrl} target="_blank" rel="noreferrer">
+          Menu source
+        </a>
       </div>
     </article>
   );

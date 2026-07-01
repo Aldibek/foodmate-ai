@@ -1,66 +1,192 @@
 [
   {
-    "id": "green-bowl",
-    "name": "Green Bowl",
-    "cuisine": "healthy",
+    "id": "navat-dostyk",
+    "name": "Chaihana NAVAT",
+    "cuisine": "kazakh",
     "city": "Almaty",
-    "rating": 4.8,
-    "deliveryMinutes": 24,
-    "priceLevel": "$$",
-    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80",
-    "tags": ["vegan", "low calorie", "lunch"],
-    "menu": [
-      { "id": "gb-1", "name": "Quinoa power bowl", "price": 2990, "calories": 520, "category": "bowls" },
-      { "id": "gb-2", "name": "Avocado toast set", "price": 2490, "calories": 430, "category": "breakfast" },
-      { "id": "gb-3", "name": "Berry protein smoothie", "price": 1790, "calories": 260, "category": "drinks" }
-    ]
-  },
-  {
-    "id": "nomad-grill",
-    "name": "Nomad Grill",
-    "cuisine": "grill",
-    "city": "Astana",
+    "district": "Dostyk / city center",
     "rating": 4.7,
     "deliveryMinutes": 32,
-    "priceLevel": "$$$",
-    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1200&q=80",
-    "tags": ["meat", "dinner", "family"],
-    "menu": [
-      { "id": "ng-1", "name": "Ribeye steak box", "price": 6990, "calories": 850, "category": "grill" },
-      { "id": "ng-2", "name": "Chicken shashlik plate", "price": 3890, "calories": 640, "category": "grill" },
-      { "id": "ng-3", "name": "Charred vegetable side", "price": 1490, "calories": 210, "category": "sides" }
-    ]
-  },
-  {
-    "id": "tokyo-corner",
-    "name": "Tokyo Corner",
-    "cuisine": "asian",
-    "city": "Almaty",
-    "rating": 4.6,
-    "deliveryMinutes": 28,
     "priceLevel": "$$",
-    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=1200&q=80",
-    "tags": ["sushi", "ramen", "date"],
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.navat.kz/almatymenu",
+    "tags": ["plov", "lagman", "family", "halal"],
     "menu": [
-      { "id": "tc-1", "name": "Salmon sushi set", "price": 4590, "calories": 610, "category": "sushi" },
-      { "id": "tc-2", "name": "Spicy miso ramen", "price": 3490, "calories": 730, "category": "ramen" },
-      { "id": "tc-3", "name": "Mango mochi", "price": 1690, "calories": 240, "category": "dessert" }
+      { "id": "nav-1", "name": "Баурсаки", "price": 980, "calories": 420, "category": "bakery" },
+      { "id": "nav-2", "name": "Самса с мясом", "price": 990, "calories": 360, "category": "bakery" },
+      { "id": "nav-3", "name": "Салат Ачичук", "price": 1850, "calories": 140, "category": "salad" },
+      { "id": "nav-4", "name": "Плов праздничный", "price": 3490, "calories": 760, "category": "main" }
     ]
   },
   {
-    "id": "bella-pasta",
-    "name": "Bella Pasta",
-    "cuisine": "italian",
-    "city": "Shymkent",
-    "rating": 4.5,
+    "id": "sandyq",
+    "name": "Sandyq",
+    "cuisine": "kazakh",
+    "city": "Almaty",
+    "district": "Abylai Khan",
+    "rating": 4.6,
+    "deliveryMinutes": 38,
+    "priceLevel": "$$$",
+    "image": "https://images.unsplash.com/photo-1604909052743-94e838986d24?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://sandyq.kz/authors_menu",
+    "tags": ["national", "authentic", "dinner", "halal"],
+    "menu": [
+      { "id": "san-1", "name": "Бешбармак", "price": 5200, "calories": 820, "category": "main" },
+      { "id": "san-2", "name": "Куырдак", "price": 4300, "calories": 740, "category": "main" },
+      { "id": "san-3", "name": "Наурыз коже", "price": 2300, "calories": 390, "category": "soup" },
+      { "id": "san-4", "name": "Жент dessert", "price": 1900, "calories": 330, "category": "dessert" }
+    ]
+  },
+  {
+    "id": "daredzhani",
+    "name": "Дареджани",
+    "cuisine": "georgian",
+    "city": "Almaty",
+    "district": "Kunayeva / Dostyk",
+    "rating": 4.7,
     "deliveryMinutes": 35,
     "priceLevel": "$$",
-    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=1200&q=80",
-    "tags": ["pasta", "pizza", "comfort"],
+    "image": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://abr.kz/restaurant/daredzhani",
+    "tags": ["khinkali", "khachapuri", "family", "georgian"],
     "menu": [
-      { "id": "bp-1", "name": "Truffle tagliatelle", "price": 3990, "calories": 680, "category": "pasta" },
-      { "id": "bp-2", "name": "Margherita pizza", "price": 3290, "calories": 790, "category": "pizza" },
-      { "id": "bp-3", "name": "Tiramisu cup", "price": 1890, "calories": 410, "category": "dessert" }
+      { "id": "dar-1", "name": "Мини-хачапури по-мегрельски", "price": 2200, "calories": 620, "category": "bakery" },
+      { "id": "dar-2", "name": "Мини-хинкали с цыплёнком", "price": 1900, "calories": 510, "category": "main" },
+      { "id": "dar-3", "name": "Харчо с томлёной телятиной", "price": 3200, "calories": 480, "category": "soup" },
+      { "id": "dar-4", "name": "Куриный шницель с пюре", "price": 2400, "calories": 650, "category": "main" }
+    ]
+  },
+  {
+    "id": "ocean-basket",
+    "name": "Ocean Basket",
+    "cuisine": "seafood",
+    "city": "Almaty",
+    "district": "Mega Alma-Ata",
+    "rating": 4.5,
+    "deliveryMinutes": 40,
+    "priceLevel": "$$$",
+    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://kazakhstan.oceanbasket.com/menu/",
+    "tags": ["fish", "sushi", "prawns", "date"],
+    "menu": [
+      { "id": "ocb-1", "name": "Fish & Chips 200g", "price": 3790, "calories": 670, "category": "fish" },
+      { "id": "ocb-2", "name": "Cod 200g", "price": 4890, "calories": 520, "category": "fish" },
+      { "id": "ocb-3", "name": "Salmon platter", "price": 8990, "calories": 980, "category": "platter" },
+      { "id": "ocb-4", "name": "Prawn tempura roll", "price": 3290, "calories": 430, "category": "sushi" }
+    ]
+  },
+  {
+    "id": "tomyumbar",
+    "name": "TomYumBar",
+    "cuisine": "pan-asian",
+    "city": "Almaty",
+    "district": "Seifullina",
+    "rating": 4.8,
+    "deliveryMinutes": 27,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://2gis.kz/almaty/firm/70000001083288423/tab/prices",
+    "tags": ["tom yum", "thai", "spicy", "lunch"],
+    "menu": [
+      { "id": "tyb-1", "name": "Классический том ям с курицей", "price": 3290, "calories": 430, "category": "soup" },
+      { "id": "tyb-2", "name": "Том ям с креветками", "price": 4190, "calories": 460, "category": "soup" },
+      { "id": "tyb-3", "name": "Томкха с креветками", "price": 4590, "calories": 520, "category": "soup" },
+      { "id": "tyb-4", "name": "Пад тай с креветками", "price": 4590, "calories": 690, "category": "noodles" }
+    ]
+  },
+  {
+    "id": "korean-house",
+    "name": "Korean House",
+    "cuisine": "korean",
+    "city": "Almaty",
+    "district": "Kabanbay Batyr",
+    "rating": 4.0,
+    "deliveryMinutes": 34,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://2gis.kz/almaty/firm/70000001019642982/tab/prices",
+    "tags": ["kimbap", "ramen", "korean", "spicy"],
+    "menu": [
+      { "id": "kor-1", "name": "Кимпаб с говядиной", "price": 3200, "calories": 540, "category": "rolls" },
+      { "id": "kor-2", "name": "Кимпаб с семгой", "price": 3700, "calories": 560, "category": "rolls" },
+      { "id": "kor-3", "name": "Куджольмикс", "price": 3800, "calories": 610, "category": "starter" },
+      { "id": "kor-4", "name": "Рамен с говядиной", "price": 3600, "calories": 720, "category": "ramen" }
+    ]
+  },
+  {
+    "id": "coffee-boom",
+    "name": "Coffee BOOM",
+    "cuisine": "coffee",
+    "city": "Almaty",
+    "district": "Gogol / Mega Park",
+    "rating": 4.6,
+    "deliveryMinutes": 22,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://2gis.kz/almaty/firm/70000001061772322/tab/prices",
+    "tags": ["breakfast", "coffee", "dessert", "quick"],
+    "menu": [
+      { "id": "cb-1", "name": "Americano ice blueberry", "price": 1600, "calories": 90, "category": "drinks" },
+      { "id": "cb-2", "name": "Фисташковый урбеч", "price": 2400, "calories": 310, "category": "drinks" },
+      { "id": "cb-3", "name": "Смузи клубника-кокос", "price": 1800, "calories": 240, "category": "drinks" },
+      { "id": "cb-4", "name": "Чизкейк охлажденный", "price": 1980, "calories": 420, "category": "dessert" }
+    ]
+  },
+  {
+    "id": "rumi",
+    "name": "Rumi",
+    "cuisine": "uzbek",
+    "city": "Almaty",
+    "district": "Abay / central",
+    "rating": 4.6,
+    "deliveryMinutes": 30,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1511690078903-71dc5a49f5e3?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://2gis.kz/almaty/firm/70000001020869237/tab/prices",
+    "tags": ["plov", "uzbek", "family", "comfort"],
+    "menu": [
+      { "id": "rum-1", "name": "Ассорти из выпечки", "price": 3290, "calories": 690, "category": "bakery" },
+      { "id": "rum-2", "name": "Картофель фри", "price": 1490, "calories": 360, "category": "sides" },
+      { "id": "rum-3", "name": "Дапанджи с тестом/рисом", "price": 19790, "calories": 2100, "category": "sharing" },
+      { "id": "rum-4", "name": "Куырдак на компанию", "price": 19990, "calories": 2300, "category": "sharing" }
+    ]
+  },
+  {
+    "id": "baharat",
+    "name": "Baharat",
+    "cuisine": "eastern",
+    "city": "Almaty",
+    "district": "Nur-ay Residence",
+    "rating": 4.8,
+    "deliveryMinutes": 31,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://2gis.kz/almaty/firm/70000001082550767/tab/prices",
+    "tags": ["halal", "breakfast", "national", "soup"],
+    "menu": [
+      { "id": "bah-1", "name": "Nomad breakfast", "price": 3990, "calories": 650, "category": "breakfast" },
+      { "id": "bah-2", "name": "Скрэмбл с лососем", "price": 3690, "calories": 510, "category": "breakfast" },
+      { "id": "bah-3", "name": "Салат с копченной кониной и куртом", "price": 2690, "calories": 420, "category": "salad" },
+      { "id": "bah-4", "name": "Нарын с бульоном", "price": 3390, "calories": 590, "category": "soup" }
+    ]
+  },
+  {
+    "id": "bauyrdaq",
+    "name": "Bauyrdaq Qazaq Fast-food",
+    "cuisine": "kazakh-fast",
+    "city": "Almaty",
+    "district": "Abylai Khan",
+    "rating": 4.7,
+    "deliveryMinutes": 24,
+    "priceLevel": "$",
+    "image": "https://images.unsplash.com/photo-1561758033-d89a9ad46330?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://2gis.kz/almaty/firm/70000001089109733/tab/prices",
+    "tags": ["fast food", "kazakh", "budget", "quick"],
+    "menu": [
+      { "id": "bau-1", "name": "Бауырдақ с бараньей печенью", "price": 720, "calories": 310, "category": "main" },
+      { "id": "bau-2", "name": "Бауырдақ из говядины", "price": 1390, "calories": 460, "category": "main" },
+      { "id": "bau-3", "name": "Бауырдақ из курицы", "price": 1180, "calories": 390, "category": "main" },
+      { "id": "bau-4", "name": "Нан Бауырдақ из говядины", "price": 1590, "calories": 520, "category": "combo" }
     ]
   }
 ]

@@ -1,6 +1,6 @@
 # FoodMate AI
 
-FoodMate AI is a mini food-delivery catalog for a group project. The product works without AI: users can browse restaurants, filter by city/cuisine/delivery time, add dishes to a cart, and create a demo order.
+FoodMate AI is a mini food-delivery catalog for a group project. The product works without AI: users can browse real Almaty restaurants, filter by cuisine and delivery time, add dishes to a cart, and create a demo order.
 
 The AI feature improves UX through a tool-using assistant. It calls backend tools to search restaurants, recommend dishes, and build budget-aware suggestions.
 
@@ -11,6 +11,21 @@ The AI feature improves UX through a tool-using assistant. It calls backend tool
 - JSON data store
 - Vitest automated tests
 - Lucide React icons
+
+## Data
+
+The catalog uses 10 real Almaty restaurants with approximate menu items and prices from public menu pages:
+
+- Chaihana NAVAT
+- Sandyq
+- Дареджани
+- Ocean Basket
+- TomYumBar
+- Korean House
+- Coffee BOOM
+- Rumi
+- Baharat
+- Bauyrdaq Qazaq Fast-food
 
 ## Run locally
 

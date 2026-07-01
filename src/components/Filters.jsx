@@ -1,5 +1,18 @@
 import { Clock, MapPin, SlidersHorizontal, Utensils } from "lucide-react";
 
+const CUISINES = [
+  ["all", "All cuisines"],
+  ["kazakh", "Kazakh"],
+  ["kazakh-fast", "Kazakh fast-food"],
+  ["georgian", "Georgian"],
+  ["seafood", "Seafood"],
+  ["pan-asian", "Pan-Asian"],
+  ["korean", "Korean"],
+  ["coffee", "Coffee"],
+  ["uzbek", "Uzbek"],
+  ["eastern", "Eastern"]
+];
+
 export function Filters({ filters, onChange }) {
   const update = (key, value) => onChange({ ...filters, [key]: value });
 
@@ -8,11 +21,9 @@ export function Filters({ filters, onChange }) {
       <label>
         <Utensils size={17} />
         <select value={filters.cuisine} onChange={(event) => update("cuisine", event.target.value)}>
-          <option value="all">All cuisines</option>
-          <option value="healthy">Healthy</option>
-          <option value="grill">Grill</option>
-          <option value="asian">Asian</option>
-          <option value="italian">Italian</option>
+          {CUISINES.map(([value, label]) => (
+            <option key={value} value={value}>{label}</option>
+          ))}
         </select>
       </label>
       <label>

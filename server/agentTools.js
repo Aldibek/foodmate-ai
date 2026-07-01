@@ -50,7 +50,7 @@ export function answerFoodQuestion(message) {
   const budgetMatch = text.match(/(\d{3,6})/);
   const budget = budgetMatch ? Number(budgetMatch[1]) : 5000;
   const city = ["Almaty", "Astana", "Shymkent"].find((item) => text.includes(item.toLowerCase())) || "all";
-  const cuisine = ["healthy", "grill", "asian", "italian"].find((item) => text.includes(item)) || "all";
+  const cuisine = restaurants.find((restaurant) => text.includes(restaurant.cuisine.toLowerCase()))?.cuisine || "all";
 
   const restaurantsFound = searchRestaurants({ cuisine, city, maxDelivery: 40 });
   const dishes = recommendDishes({ budget, preference: text });

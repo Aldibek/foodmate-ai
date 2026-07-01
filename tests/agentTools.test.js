@@ -3,9 +3,9 @@ import { answerFoodQuestion, buildBudgetPlan, searchRestaurants } from "../serve
 
 describe("agent tools", () => {
   it("filters restaurants by city and cuisine", () => {
-    const result = searchRestaurants({ cuisine: "healthy", city: "Almaty", maxDelivery: 30 });
+    const result = searchRestaurants({ cuisine: "kazakh-fast", city: "Almaty", maxDelivery: 30 });
     expect(result).toHaveLength(1);
-    expect(result[0].name).toBe("Green Bowl");
+    expect(result[0].name).toBe("Bauyrdaq Qazaq Fast-food");
   });
 
   it("builds a budget plan per person", () => {
@@ -15,8 +15,8 @@ describe("agent tools", () => {
   });
 
   it("returns tools used by the assistant", () => {
-    const answer = answerFoodQuestion("Need asian in Almaty under 5000");
+    const answer = answerFoodQuestion("Need pan-asian in Almaty under 5000");
     expect(answer.toolsUsed).toContain("searchRestaurants");
-    expect(answer.text).toMatch(/Tokyo Corner|budget|бюджет|подходят/i);
+    expect(answer.text).toMatch(/TomYumBar|budget|бюджет|подходят/i);
   });
 });
