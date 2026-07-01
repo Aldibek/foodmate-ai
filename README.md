@@ -24,6 +24,8 @@ Backend: http://localhost:4000
 
 Production deploy: https://foodmate-eta.vercel.app
 
+GitHub repository: https://github.com/Aldibek/foodmate-ai
+
 ## API
 
 - `GET /api/health`

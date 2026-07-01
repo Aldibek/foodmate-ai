@@ -42,6 +42,6 @@ FoodMate AI: restaurant and food ordering catalog with filters, cart, backend AP
 
 ## Submission
 
-- GitHub repository: add link here
+- GitHub repository: https://github.com/Aldibek/foodmate-ai
 - Deploy: https://foodmate-eta.vercel.app
 - Video: optional 3-5 minute walkthrough
