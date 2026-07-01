@@ -227,6 +227,13 @@ textarea {
   box-shadow: 0 0 0 3px rgba(35, 104, 75, 0.12);
 }
 
+.command-error {
+  margin: -4px 0 10px;
+  color: #8c2f25;
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
 .range-control input {
   width: 100%;
   accent-color: #23684b;

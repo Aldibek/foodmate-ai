@@ -42,8 +42,11 @@ describe("FoodMate app", () => {
     await waitFor(() => expect(screen.getByText("Demo Kitchen")).toBeInTheDocument());
 
     await user.click(screen.getByRole("button", { name: /add demo noodles/i }));
-    await user.type(screen.getByPlaceholderText("create order"), "create order");
     await user.click(screen.getByRole("button", { name: "Create order" }));
+    expect(screen.getByText("Type create order to continue.")).toBeInTheDocument();
+
+    await user.type(screen.getByPlaceholderText("create order"), "create order");
+    await user.keyboard("{Enter}");
 
     expect(screen.getByText("Delivery address")).toBeInTheDocument();
     expect(screen.getByPlaceholderText("Almaty, street, house, apartment")).toBeInTheDocument();

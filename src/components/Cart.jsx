@@ -3,6 +3,7 @@ import { useState } from "react";
 
 export function Cart({ items, onRemove, onCheckout, order }) {
   const [command, setCommand] = useState("");
+  const [commandError, setCommandError] = useState("");
   const [isAddressOpen, setIsAddressOpen] = useState(false);
   const [customer, setCustomer] = useState({ name: "", phone: "", address: "", note: "" });
   const total = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
@@ -10,7 +11,12 @@ export function Cart({ items, onRemove, onCheckout, order }) {
   const canSubmitAddress = customer.address.trim().length >= 6;
 
   function openAddressForm() {
-    if (!canCreateOrder) return;
+    if (!items.length) return;
+    if (!canCreateOrder) {
+      setCommandError("Type create order to continue.");
+      return;
+    }
+    setCommandError("");
     setIsAddressOpen(true);
   }
 
@@ -24,6 +30,20 @@ export function Cart({ items, onRemove, onCheckout, order }) {
   }
 
   const updateCustomer = (key, value) => setCustomer((current) => ({ ...current, [key]: value }));
+
+  function updateCommand(value) {
+    setCommand(value);
+    if (value.trim().toLowerCase() === "create order") {
+      setCommandError("");
+    }
+  }
+
+  function handleCommandKeyDown(event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      openAddressForm();
+    }
+  }
 
   return (
     <aside className="cart-panel">
@@ -58,10 +78,12 @@ export function Cart({ items, onRemove, onCheckout, order }) {
           type="text"
           value={command}
           placeholder="create order"
-          onChange={(event) => setCommand(event.target.value)}
+          onChange={(event) => updateCommand(event.target.value)}
+          onKeyDown={handleCommandKeyDown}
         />
       </label>
-      <button className="checkout" type="button" disabled={!canCreateOrder} onClick={openAddressForm}>
+      {commandError && <p className="command-error">{commandError}</p>}
+      <button className="checkout" type="button" disabled={!items.length} onClick={openAddressForm}>
         Create order
       </button>
       {order && (
