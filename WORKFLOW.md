@@ -1,49 +1,140 @@
 # WORKFLOW.md
 
-## Project
+## Проект
 
-FoodMate AI: restaurant and food ordering catalog with filters, cart, backend API, and AI assistant tools.
-The catalog was updated to use 50 real Almaty restaurants with approximate menu items from public menu/listing pages.
-The order flow requires users to type `create order`, then fill a delivery address modal before the API accepts the order.
+FoodMate AI — это каталог ресторанов и сервис тестового заказа еды для Алматы. Проект сделан под групповое задание: в нём есть frontend, backend, AI-интеграция, тесты, документация, deploy и файлы `ai-rules` для ролей команды.
 
-## AI Usage Evidence
+Основная идея: пользователь выбирает ресторан, добавляет блюда в корзину, указывает адрес и создаёт заказ. AI-ассистент помогает подобрать ресторан или блюдо по бюджету и предпочтениям.
 
-- Codex read the Notion assignment and extracted the requirements.
-- Codex generated the project architecture, React UI, Express API, data model, tests, and documentation.
-- AI output was reviewed and adjusted to satisfy the assignment: app works without AI, AI uses tools, and role rules are present.
+## Что реализовано
 
-## MCP / Tools / Subagents
+- Каталог из 50 реальных ресторанов Алматы.
+- Примерные меню и цены на основе публичных источников.
+- Фильтры по кухне, городу и времени доставки.
+- Карточки ресторанов с рейтингом, тегами, меню и ссылкой на источник.
+- Корзина с выбранными блюдами.
+- Окно оформления заказа с адресом доставки.
+- Backend API для ресторанов, заказов и AI.
+- AI-tools для поиска ресторанов и рекомендаций блюд.
+- Автотесты.
+- Deploy на Vercel.
+- GitHub репозиторий.
 
-- Web context tool: used to read the public Notion assignment.
-- Local code tools: used to generate and inspect project files.
-- Backend AI tools implemented in code:
-  - `searchRestaurants`
-  - `recommendDishes`
-  - `buildBudgetPlan`
+## Доказательства использования AI
 
-## Team Synergy
+- Codex прочитал ТЗ из Notion и выделил обязательные требования.
+- Codex сгенерировал структуру проекта: React frontend, Express backend, данные, тесты и документацию.
+- После проверки требований проект был доработан:
+  - добавлен deploy;
+  - добавлен GitHub repository;
+  - расширен каталог до 50 ресторанов Алматы;
+  - исправлен flow заказа;
+  - документация переведена на русский.
+- AI использовался не только как чат, но и как инструмент разработки: чтение ТЗ, генерация кода, проверка, тесты, деплой.
 
-- Frontend consumes stable backend JSON contracts.
-- Backend exposes restaurant, order, and assistant endpoints.
-- AI Engineer keeps assistant recommendations grounded in project data.
-- QA validates product flows with Vitest.
+## AI / Tools
+
+В проекте AI-ассистент использует backend tools:
+
+- `searchRestaurants` — поиск ресторанов по параметрам.
+- `recommendDishes` — подбор блюд по бюджету и предпочтениям.
+- `buildBudgetPlan` — план заказа по бюджету и количеству людей.
+
+Ответ AI содержит `toolsUsed`, поэтому видно, какие инструменты были вызваны.
+
+## MCP / Subagents / Tools по ролям
+
+### Frontend Developer
+
+- Использует UI-review подход.
+- Проверяет responsive layout, карточки, корзину, форму заказа.
+- Output: JSX, CSS, UI flow.
+
+### Backend Developer
+
+- Использует API/tooling подход.
+- Реализует endpoints и JSON contracts.
+- Output: REST API, JSON responses, order validation.
+
+### AI Engineer
+
+- Делает assistant tools.
+- Следит, чтобы AI не был просто GPT-чатом.
+- Output: recommendations, `toolsUsed`, suggestions.
+
+### QA Engineer & Workflow Master
+
+- Проверяет тесты и workflow.
+- Фиксирует evidence использования AI.
+- Output: tests, README, WORKFLOW.
+
+## Командная работа
+
+- Frontend использует API-контракты backend.
+- Backend отдаёт рестораны, заказы и AI-рекомендации.
+- AI Engineer держит рекомендации внутри данных проекта.
+- QA проверяет, что приложение работает без AI и с AI.
+
+## Что работает без AI
+
+Даже если AI-ассистент не использовать, пользователь может:
+
+1. Открыть каталог ресторанов.
+2. Использовать фильтры.
+3. Посмотреть меню.
+4. Добавить блюда в корзину.
+5. Оформить тестовый заказ с адресом.
+
+Это важно, потому что по ТЗ AI должен усиливать UX, но не быть единственной функциональностью.
+
+## Как создаётся заказ
+
+1. Пользователь выбирает блюдо.
+2. Блюдо появляется в корзине.
+3. Пользователь нажимает `Create order`.
+4. Открывается окно `Delivery address`.
+5. Пользователь вводит адрес.
+6. Кнопка `Confirm order` создаёт заказ через backend.
+
+Backend дополнительно проверяет, что адрес не пустой.
+
+## Тесты
+
+Проверяется:
+
+- фильтрация ресторанов;
+- наличие 50 ресторанов;
+- AI-tools;
+- рендер каталога;
+- открытие формы адреса после `Create order`.
+
+Команды:
+
+```bash
+npm run lint
+npm test
+npm run build
+npm audit
+```
 
 ## Reflection
 
-1. AI saved the most time on project scaffolding, UI structure, API contracts, and documentation.
-2. AI needed review around exact assignment constraints, especially making sure the app works without AI.
-3. Without AI, creating the full stack, tests, and workflow docs would take at least three times longer.
+1. AI больше всего сэкономил время на создании структуры проекта, API, UI-компонентов и документации.
+2. AI ошибался в UX flow заказа: кнопка была слишком строго заблокирована. Это было исправлено после тестирования.
+3. Без AI реализация full-stack проекта, тестов, deploy и документации заняла бы значительно больше времени.
 
-## Screenshots Checklist
-
-- Home page with restaurants
-- Filters applied
-- Cart with dishes
-- AI assistant answer showing `toolsUsed`
-- Test run output
-
-## Submission
+## Ссылки для сдачи
 
 - GitHub repository: https://github.com/Aldibek/foodmate-ai
 - Deploy: https://foodmate-eta.vercel.app
-- Video: optional 3-5 minute walkthrough
+
+## Checklist
+
+- GitHub репозиторий: готово.
+- Deploy: готово.
+- README.md: готово.
+- WORKFLOW.md: готово.
+- `ai-rules/*.md`: готово.
+- AI tools: готово.
+- Автотесты: готово.
+- Реальные рестораны Алматы: готово.
