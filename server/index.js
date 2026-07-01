@@ -30,6 +30,10 @@ app.get("/api/restaurants/:id", (request, response) => {
 
 app.post("/api/orders", (request, response) => {
   const { items = [], customer = {} } = request.body;
+  if (!customer.address || customer.address.trim().length < 6) {
+    response.status(400).json({ error: "Delivery address is required" });
+    return;
+  }
   const total = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
   response.status(201).json({
     id: `order-${Date.now()}`,

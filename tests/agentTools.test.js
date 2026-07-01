@@ -8,6 +8,11 @@ describe("agent tools", () => {
     expect(result[0].name).toBe("Bauyrdaq Qazaq Fast-food");
   });
 
+  it("contains a 50 restaurant catalog", () => {
+    const result = searchRestaurants({ cuisine: "all", city: "Almaty", maxDelivery: 60 });
+    expect(result).toHaveLength(50);
+  });
+
   it("builds a budget plan per person", () => {
     const plan = buildBudgetPlan({ people: 2, budget: 7000 });
     expect(plan.perPerson).toBe(3500);

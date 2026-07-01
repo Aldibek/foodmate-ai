@@ -1,4 +1,5 @@
-import { render, screen, waitFor } from "@testing-library/react";
+import { cleanup, render, screen, waitFor } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import App from "../src/App";
 
@@ -19,6 +20,7 @@ const mockRestaurants = [
 
 describe("FoodMate app", () => {
   beforeEach(() => {
+    cleanup();
     global.fetch = vi.fn((url) => {
       if (String(url).includes("/api/restaurants")) {
         return Promise.resolve({ ok: true, json: () => Promise.resolve(mockRestaurants) });
@@ -32,5 +34,18 @@ describe("FoodMate app", () => {
     expect(screen.getByText("FoodMate AI")).toBeInTheDocument();
     await waitFor(() => expect(screen.getByText("Demo Kitchen")).toBeInTheDocument());
     expect(screen.getByText("Demo noodles")).toBeInTheDocument();
+  });
+
+  it("opens address form after create order command", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await waitFor(() => expect(screen.getByText("Demo Kitchen")).toBeInTheDocument());
+
+    await user.click(screen.getByRole("button", { name: /add demo noodles/i }));
+    await user.type(screen.getByPlaceholderText("create order"), "create order");
+    await user.click(screen.getByRole("button", { name: "Create order" }));
+
+    expect(screen.getByText("Delivery address")).toBeInTheDocument();
+    expect(screen.getByPlaceholderText("Almaty, street, house, apartment")).toBeInTheDocument();
   });
 });

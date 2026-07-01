@@ -39,8 +39,8 @@ export default function App() {
     setCart((items) => items.filter((item) => item.id !== id));
   }
 
-  async function checkout() {
-    const created = await createOrder({ items: cart, customer: { name: "Demo student" } });
+  async function checkout(customer) {
+    const created = await createOrder({ items: cart, customer });
     setOrder(created);
     setCart([]);
   }
@@ -51,7 +51,7 @@ export default function App() {
         <div>
           <span className="eyebrow">Food delivery catalog with API and AI tools</span>
           <h1>FoodMate AI</h1>
-          <p>Find restaurants, compare menus, build a cart, and ask a tool-using assistant what fits your budget.</p>
+          <p>Find Almaty restaurants, compare menus, build a cart, type create order, and add your delivery address.</p>
         </div>
         <div className="hero-stats" aria-label="Project stats">
           <strong>{stats.restaurants}</strong><span>restaurants</span>

@@ -2,15 +2,34 @@ import { Clock, MapPin, SlidersHorizontal, Utensils } from "lucide-react";
 
 const CUISINES = [
   ["all", "All cuisines"],
+  ["asian", "Asian"],
+  ["cafe", "Cafe"],
+  ["chinese", "Chinese"],
+  ["coffee", "Coffee"],
+  ["contemporary", "Contemporary"],
+  ["doner", "Doner"],
+  ["eastern", "Eastern"],
+  ["european", "European"],
+  ["fusion-asian", "Fusion Asian"],
+  ["georgian", "Georgian"],
+  ["greek", "Greek"],
+  ["home-cooking", "Home Cooking"],
+  ["international", "International"],
+  ["italian", "Italian"],
+  ["japanese", "Japanese"],
   ["kazakh", "Kazakh"],
   ["kazakh-fast", "Kazakh fast-food"],
-  ["georgian", "Georgian"],
-  ["seafood", "Seafood"],
-  ["pan-asian", "Pan-Asian"],
   ["korean", "Korean"],
-  ["coffee", "Coffee"],
-  ["uzbek", "Uzbek"],
-  ["eastern", "Eastern"]
+  ["mediterranean", "Mediterranean"],
+  ["middle-eastern", "Middle Eastern"],
+  ["pan-asian", "Pan-Asian"],
+  ["pizza", "Pizza"],
+  ["pub", "Pub"],
+  ["seafood", "Seafood"],
+  ["steakhouse", "Steakhouse"],
+  ["turkish", "Turkish"],
+  ["turkish-fast", "Turkish fast-food"],
+  ["uzbek", "Uzbek"]
 ];
 
 export function Filters({ filters, onChange }) {

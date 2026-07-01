@@ -10,12 +10,41 @@
     "priceLevel": "$$",
     "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
     "sourceUrl": "https://www.navat.kz/almatymenu",
-    "tags": ["plov", "lagman", "family", "halal"],
+    "tags": [
+      "plov",
+      "lagman",
+      "family",
+      "halal"
+    ],
     "menu": [
-      { "id": "nav-1", "name": "Баурсаки", "price": 980, "calories": 420, "category": "bakery" },
-      { "id": "nav-2", "name": "Самса с мясом", "price": 990, "calories": 360, "category": "bakery" },
-      { "id": "nav-3", "name": "Салат Ачичук", "price": 1850, "calories": 140, "category": "salad" },
-      { "id": "nav-4", "name": "Плов праздничный", "price": 3490, "calories": 760, "category": "main" }
+      {
+        "id": "navat-dostyk-1",
+        "name": "Баурсаки",
+        "price": 980,
+        "calories": 420,
+        "category": "bakery"
+      },
+      {
+        "id": "navat-dostyk-2",
+        "name": "Самса с мясом",
+        "price": 990,
+        "calories": 360,
+        "category": "bakery"
+      },
+      {
+        "id": "navat-dostyk-3",
+        "name": "Салат Ачичук",
+        "price": 1850,
+        "calories": 140,
+        "category": "salad"
+      },
+      {
+        "id": "navat-dostyk-4",
+        "name": "Плов праздничный",
+        "price": 3490,
+        "calories": 760,
+        "category": "main"
+      }
     ]
   },
   {
@@ -27,14 +56,43 @@
     "rating": 4.6,
     "deliveryMinutes": 38,
     "priceLevel": "$$$",
-    "image": "https://images.unsplash.com/photo-1604909052743-94e838986d24?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
     "sourceUrl": "https://sandyq.kz/authors_menu",
-    "tags": ["national", "authentic", "dinner", "halal"],
+    "tags": [
+      "national",
+      "authentic",
+      "dinner",
+      "halal"
+    ],
     "menu": [
-      { "id": "san-1", "name": "Бешбармак", "price": 5200, "calories": 820, "category": "main" },
-      { "id": "san-2", "name": "Куырдак", "price": 4300, "calories": 740, "category": "main" },
-      { "id": "san-3", "name": "Наурыз коже", "price": 2300, "calories": 390, "category": "soup" },
-      { "id": "san-4", "name": "Жент dessert", "price": 1900, "calories": 330, "category": "dessert" }
+      {
+        "id": "sandyq-1",
+        "name": "Баурсаки",
+        "price": 980,
+        "calories": 420,
+        "category": "bakery"
+      },
+      {
+        "id": "sandyq-2",
+        "name": "Самса с мясом",
+        "price": 990,
+        "calories": 360,
+        "category": "bakery"
+      },
+      {
+        "id": "sandyq-3",
+        "name": "Салат Ачичук",
+        "price": 1850,
+        "calories": 140,
+        "category": "salad"
+      },
+      {
+        "id": "sandyq-4",
+        "name": "Плов праздничный",
+        "price": 3490,
+        "calories": 760,
+        "category": "main"
+      }
     ]
   },
   {
@@ -48,12 +106,41 @@
     "priceLevel": "$$",
     "image": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=1200&q=80",
     "sourceUrl": "https://abr.kz/restaurant/daredzhani",
-    "tags": ["khinkali", "khachapuri", "family", "georgian"],
+    "tags": [
+      "khinkali",
+      "khachapuri",
+      "family",
+      "georgian"
+    ],
     "menu": [
-      { "id": "dar-1", "name": "Мини-хачапури по-мегрельски", "price": 2200, "calories": 620, "category": "bakery" },
-      { "id": "dar-2", "name": "Мини-хинкали с цыплёнком", "price": 1900, "calories": 510, "category": "main" },
-      { "id": "dar-3", "name": "Харчо с томлёной телятиной", "price": 3200, "calories": 480, "category": "soup" },
-      { "id": "dar-4", "name": "Куриный шницель с пюре", "price": 2400, "calories": 650, "category": "main" }
+      {
+        "id": "daredzhani-1",
+        "name": "Хачапури по-мегрельски",
+        "price": 2200,
+        "calories": 620,
+        "category": "bakery"
+      },
+      {
+        "id": "daredzhani-2",
+        "name": "Хинкали с говядиной",
+        "price": 1900,
+        "calories": 510,
+        "category": "main"
+      },
+      {
+        "id": "daredzhani-3",
+        "name": "Харчо",
+        "price": 3200,
+        "calories": 480,
+        "category": "soup"
+      },
+      {
+        "id": "daredzhani-4",
+        "name": "Куриный шницель",
+        "price": 2400,
+        "calories": 650,
+        "category": "main"
+      }
     ]
   },
   {
@@ -67,12 +154,41 @@
     "priceLevel": "$$$",
     "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80",
     "sourceUrl": "https://kazakhstan.oceanbasket.com/menu/",
-    "tags": ["fish", "sushi", "prawns", "date"],
+    "tags": [
+      "fish",
+      "sushi",
+      "prawns",
+      "date"
+    ],
     "menu": [
-      { "id": "ocb-1", "name": "Fish & Chips 200g", "price": 3790, "calories": 670, "category": "fish" },
-      { "id": "ocb-2", "name": "Cod 200g", "price": 4890, "calories": 520, "category": "fish" },
-      { "id": "ocb-3", "name": "Salmon platter", "price": 8990, "calories": 980, "category": "platter" },
-      { "id": "ocb-4", "name": "Prawn tempura roll", "price": 3290, "calories": 430, "category": "sushi" }
+      {
+        "id": "ocean-basket-1",
+        "name": "Fish & Chips",
+        "price": 3790,
+        "calories": 670,
+        "category": "fish"
+      },
+      {
+        "id": "ocean-basket-2",
+        "name": "Cod 200g",
+        "price": 4890,
+        "calories": 520,
+        "category": "fish"
+      },
+      {
+        "id": "ocean-basket-3",
+        "name": "Salmon platter",
+        "price": 8990,
+        "calories": 980,
+        "category": "platter"
+      },
+      {
+        "id": "ocean-basket-4",
+        "name": "Prawn tempura roll",
+        "price": 3290,
+        "calories": 430,
+        "category": "sushi"
+      }
     ]
   },
   {
@@ -86,12 +202,41 @@
     "priceLevel": "$$",
     "image": "https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?auto=format&fit=crop&w=1200&q=80",
     "sourceUrl": "https://2gis.kz/almaty/firm/70000001083288423/tab/prices",
-    "tags": ["tom yum", "thai", "spicy", "lunch"],
+    "tags": [
+      "tom yum",
+      "thai",
+      "spicy",
+      "lunch"
+    ],
     "menu": [
-      { "id": "tyb-1", "name": "Классический том ям с курицей", "price": 3290, "calories": 430, "category": "soup" },
-      { "id": "tyb-2", "name": "Том ям с креветками", "price": 4190, "calories": 460, "category": "soup" },
-      { "id": "tyb-3", "name": "Томкха с креветками", "price": 4590, "calories": 520, "category": "soup" },
-      { "id": "tyb-4", "name": "Пад тай с креветками", "price": 4590, "calories": 690, "category": "noodles" }
+      {
+        "id": "tomyumbar-1",
+        "name": "Том ям с курицей",
+        "price": 3290,
+        "calories": 430,
+        "category": "soup"
+      },
+      {
+        "id": "tomyumbar-2",
+        "name": "Том ям с креветками",
+        "price": 4190,
+        "calories": 460,
+        "category": "soup"
+      },
+      {
+        "id": "tomyumbar-3",
+        "name": "Томкха с креветками",
+        "price": 4590,
+        "calories": 520,
+        "category": "soup"
+      },
+      {
+        "id": "tomyumbar-4",
+        "name": "Пад тай с креветками",
+        "price": 4590,
+        "calories": 690,
+        "category": "noodles"
+      }
     ]
   },
   {
@@ -100,17 +245,46 @@
     "cuisine": "korean",
     "city": "Almaty",
     "district": "Kabanbay Batyr",
-    "rating": 4.0,
+    "rating": 4,
     "deliveryMinutes": 34,
     "priceLevel": "$$",
     "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?auto=format&fit=crop&w=1200&q=80",
     "sourceUrl": "https://2gis.kz/almaty/firm/70000001019642982/tab/prices",
-    "tags": ["kimbap", "ramen", "korean", "spicy"],
+    "tags": [
+      "kimbap",
+      "ramen",
+      "korean",
+      "spicy"
+    ],
     "menu": [
-      { "id": "kor-1", "name": "Кимпаб с говядиной", "price": 3200, "calories": 540, "category": "rolls" },
-      { "id": "kor-2", "name": "Кимпаб с семгой", "price": 3700, "calories": 560, "category": "rolls" },
-      { "id": "kor-3", "name": "Куджольмикс", "price": 3800, "calories": 610, "category": "starter" },
-      { "id": "kor-4", "name": "Рамен с говядиной", "price": 3600, "calories": 720, "category": "ramen" }
+      {
+        "id": "korean-house-1",
+        "name": "Кимпаб с говядиной",
+        "price": 3200,
+        "calories": 540,
+        "category": "rolls"
+      },
+      {
+        "id": "korean-house-2",
+        "name": "Кимпаб с семгой",
+        "price": 3700,
+        "calories": 560,
+        "category": "rolls"
+      },
+      {
+        "id": "korean-house-3",
+        "name": "Кимчи рамен",
+        "price": 3600,
+        "calories": 720,
+        "category": "ramen"
+      },
+      {
+        "id": "korean-house-4",
+        "name": "Bibimbap bowl",
+        "price": 3900,
+        "calories": 650,
+        "category": "main"
+      }
     ]
   },
   {
@@ -124,12 +298,41 @@
     "priceLevel": "$$",
     "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80",
     "sourceUrl": "https://2gis.kz/almaty/firm/70000001061772322/tab/prices",
-    "tags": ["breakfast", "coffee", "dessert", "quick"],
+    "tags": [
+      "breakfast",
+      "coffee",
+      "dessert",
+      "quick"
+    ],
     "menu": [
-      { "id": "cb-1", "name": "Americano ice blueberry", "price": 1600, "calories": 90, "category": "drinks" },
-      { "id": "cb-2", "name": "Фисташковый урбеч", "price": 2400, "calories": 310, "category": "drinks" },
-      { "id": "cb-3", "name": "Смузи клубника-кокос", "price": 1800, "calories": 240, "category": "drinks" },
-      { "id": "cb-4", "name": "Чизкейк охлажденный", "price": 1980, "calories": 420, "category": "dessert" }
+      {
+        "id": "coffee-boom-1",
+        "name": "Americano ice blueberry",
+        "price": 1600,
+        "calories": 90,
+        "category": "drinks"
+      },
+      {
+        "id": "coffee-boom-2",
+        "name": "Фисташковый урбеч",
+        "price": 2400,
+        "calories": 310,
+        "category": "drinks"
+      },
+      {
+        "id": "coffee-boom-3",
+        "name": "Смузи клубника-кокос",
+        "price": 1800,
+        "calories": 240,
+        "category": "drinks"
+      },
+      {
+        "id": "coffee-boom-4",
+        "name": "Чизкейк",
+        "price": 1980,
+        "calories": 420,
+        "category": "dessert"
+      }
     ]
   },
   {
@@ -143,12 +346,41 @@
     "priceLevel": "$$",
     "image": "https://images.unsplash.com/photo-1511690078903-71dc5a49f5e3?auto=format&fit=crop&w=1200&q=80",
     "sourceUrl": "https://2gis.kz/almaty/firm/70000001020869237/tab/prices",
-    "tags": ["plov", "uzbek", "family", "comfort"],
+    "tags": [
+      "plov",
+      "uzbek",
+      "family",
+      "comfort"
+    ],
     "menu": [
-      { "id": "rum-1", "name": "Ассорти из выпечки", "price": 3290, "calories": 690, "category": "bakery" },
-      { "id": "rum-2", "name": "Картофель фри", "price": 1490, "calories": 360, "category": "sides" },
-      { "id": "rum-3", "name": "Дапанджи с тестом/рисом", "price": 19790, "calories": 2100, "category": "sharing" },
-      { "id": "rum-4", "name": "Куырдак на компанию", "price": 19990, "calories": 2300, "category": "sharing" }
+      {
+        "id": "rumi-1",
+        "name": "Плов чайханский",
+        "price": 3290,
+        "calories": 760,
+        "category": "main"
+      },
+      {
+        "id": "rumi-2",
+        "name": "Лагман гуйру",
+        "price": 2890,
+        "calories": 690,
+        "category": "noodles"
+      },
+      {
+        "id": "rumi-3",
+        "name": "Манты с мясом",
+        "price": 2790,
+        "calories": 620,
+        "category": "main"
+      },
+      {
+        "id": "rumi-4",
+        "name": "Шурпа",
+        "price": 2490,
+        "calories": 430,
+        "category": "soup"
+      }
     ]
   },
   {
@@ -162,12 +394,41 @@
     "priceLevel": "$$",
     "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=1200&q=80",
     "sourceUrl": "https://2gis.kz/almaty/firm/70000001082550767/tab/prices",
-    "tags": ["halal", "breakfast", "national", "soup"],
+    "tags": [
+      "halal",
+      "breakfast",
+      "national",
+      "soup"
+    ],
     "menu": [
-      { "id": "bah-1", "name": "Nomad breakfast", "price": 3990, "calories": 650, "category": "breakfast" },
-      { "id": "bah-2", "name": "Скрэмбл с лососем", "price": 3690, "calories": 510, "category": "breakfast" },
-      { "id": "bah-3", "name": "Салат с копченной кониной и куртом", "price": 2690, "calories": 420, "category": "salad" },
-      { "id": "bah-4", "name": "Нарын с бульоном", "price": 3390, "calories": 590, "category": "soup" }
+      {
+        "id": "baharat-1",
+        "name": "Nomad breakfast",
+        "price": 3990,
+        "calories": 650,
+        "category": "breakfast"
+      },
+      {
+        "id": "baharat-2",
+        "name": "Скрэмбл с лососем",
+        "price": 3690,
+        "calories": 510,
+        "category": "breakfast"
+      },
+      {
+        "id": "baharat-3",
+        "name": "Салат с кониной и куртом",
+        "price": 2690,
+        "calories": 420,
+        "category": "salad"
+      },
+      {
+        "id": "baharat-4",
+        "name": "Нарын с бульоном",
+        "price": 3390,
+        "calories": 590,
+        "category": "soup"
+      }
     ]
   },
   {
@@ -181,12 +442,1961 @@
     "priceLevel": "$",
     "image": "https://images.unsplash.com/photo-1561758033-d89a9ad46330?auto=format&fit=crop&w=1200&q=80",
     "sourceUrl": "https://2gis.kz/almaty/firm/70000001089109733/tab/prices",
-    "tags": ["fast food", "kazakh", "budget", "quick"],
+    "tags": [
+      "fast food",
+      "kazakh",
+      "budget",
+      "quick"
+    ],
     "menu": [
-      { "id": "bau-1", "name": "Бауырдақ с бараньей печенью", "price": 720, "calories": 310, "category": "main" },
-      { "id": "bau-2", "name": "Бауырдақ из говядины", "price": 1390, "calories": 460, "category": "main" },
-      { "id": "bau-3", "name": "Бауырдақ из курицы", "price": 1180, "calories": 390, "category": "main" },
-      { "id": "bau-4", "name": "Нан Бауырдақ из говядины", "price": 1590, "calories": 520, "category": "combo" }
+      {
+        "id": "bauyrdaq-1",
+        "name": "Бауырдақ с печенью",
+        "price": 720,
+        "calories": 310,
+        "category": "main"
+      },
+      {
+        "id": "bauyrdaq-2",
+        "name": "Бауырдақ из говядины",
+        "price": 1390,
+        "calories": 460,
+        "category": "main"
+      },
+      {
+        "id": "bauyrdaq-3",
+        "name": "Бауырдақ из курицы",
+        "price": 1180,
+        "calories": 390,
+        "category": "main"
+      },
+      {
+        "id": "bauyrdaq-4",
+        "name": "Нан бауырдақ комбо",
+        "price": 1590,
+        "calories": 520,
+        "category": "combo"
+      }
+    ]
+  },
+  {
+    "id": "beefeater-dostyk",
+    "name": "Beefeater Dostyk",
+    "cuisine": "steakhouse",
+    "city": "Almaty",
+    "district": "Dostyk Avenue",
+    "rating": 4.8,
+    "deliveryMinutes": 36,
+    "priceLevel": "$$$",
+    "image": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.tripadvisor.com/Restaurants-g298251-Almaty.html",
+    "tags": [
+      "steak",
+      "grill",
+      "business",
+      "dinner"
+    ],
+    "menu": [
+      {
+        "id": "beefeater-dostyk-1",
+        "name": "Ribeye steak",
+        "price": 8900,
+        "calories": 900,
+        "category": "steak"
+      },
+      {
+        "id": "beefeater-dostyk-2",
+        "name": "Beef burger",
+        "price": 3900,
+        "calories": 720,
+        "category": "burger"
+      },
+      {
+        "id": "beefeater-dostyk-3",
+        "name": "Grilled chicken",
+        "price": 3600,
+        "calories": 610,
+        "category": "grill"
+      },
+      {
+        "id": "beefeater-dostyk-4",
+        "name": "Caesar salad",
+        "price": 2900,
+        "calories": 360,
+        "category": "salad"
+      }
+    ]
+  },
+  {
+    "id": "manga-sushi",
+    "name": "Manga Sushi",
+    "cuisine": "japanese",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.7,
+    "deliveryMinutes": 29,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.tripadvisor.com/Restaurants-g298251-Almaty.html",
+    "tags": [
+      "sushi",
+      "rolls",
+      "japanese",
+      "delivery"
+    ],
+    "menu": [
+      {
+        "id": "manga-sushi-1",
+        "name": "Philadelphia roll",
+        "price": 3290,
+        "calories": 470,
+        "category": "rolls"
+      },
+      {
+        "id": "manga-sushi-2",
+        "name": "Salmon nigiri set",
+        "price": 3990,
+        "calories": 520,
+        "category": "sushi"
+      },
+      {
+        "id": "manga-sushi-3",
+        "name": "Miso soup",
+        "price": 1490,
+        "calories": 170,
+        "category": "soup"
+      },
+      {
+        "id": "manga-sushi-4",
+        "name": "Chicken teriyaki",
+        "price": 3590,
+        "calories": 650,
+        "category": "main"
+      }
+    ]
+  },
+  {
+    "id": "tyubeteika",
+    "name": "Tyubeteika",
+    "cuisine": "uzbek",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.3,
+    "deliveryMinutes": 33,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1511690078903-71dc5a49f5e3?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.tripadvisor.com/Restaurants-g298251-Almaty.html",
+    "tags": [
+      "lagman",
+      "plov",
+      "uzbek",
+      "family"
+    ],
+    "menu": [
+      {
+        "id": "tyubeteika-1",
+        "name": "Плов чайханский",
+        "price": 3290,
+        "calories": 760,
+        "category": "main"
+      },
+      {
+        "id": "tyubeteika-2",
+        "name": "Лагман гуйру",
+        "price": 2890,
+        "calories": 690,
+        "category": "noodles"
+      },
+      {
+        "id": "tyubeteika-3",
+        "name": "Манты с мясом",
+        "price": 2790,
+        "calories": 620,
+        "category": "main"
+      },
+      {
+        "id": "tyubeteika-4",
+        "name": "Шурпа",
+        "price": 2490,
+        "calories": 430,
+        "category": "soup"
+      }
+    ]
+  },
+  {
+    "id": "chechil-rozybakiyeva",
+    "name": "Chechil Rozybakiyeva",
+    "cuisine": "pub",
+    "city": "Almaty",
+    "district": "Rozybakiyeva",
+    "rating": 4.9,
+    "deliveryMinutes": 28,
+    "priceLevel": "$",
+    "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.tripadvisor.com/Restaurants-g298251-zfp19-Almaty.html",
+    "tags": [
+      "pub",
+      "beer",
+      "snacks",
+      "delivery"
+    ],
+    "menu": [
+      {
+        "id": "chechil-rozybakiyeva-1",
+        "name": "Chechil beer snack",
+        "price": 1890,
+        "calories": 430,
+        "category": "snacks"
+      },
+      {
+        "id": "chechil-rozybakiyeva-2",
+        "name": "Pub burger",
+        "price": 2990,
+        "calories": 750,
+        "category": "burger"
+      },
+      {
+        "id": "chechil-rozybakiyeva-3",
+        "name": "Chicken wings",
+        "price": 2590,
+        "calories": 640,
+        "category": "snacks"
+      },
+      {
+        "id": "chechil-rozybakiyeva-4",
+        "name": "Greek salad",
+        "price": 2290,
+        "calories": 310,
+        "category": "salad"
+      }
+    ]
+  },
+  {
+    "id": "chechil-forum",
+    "name": "Chechil Forum",
+    "cuisine": "pub",
+    "city": "Almaty",
+    "district": "Forum Mall",
+    "rating": 4.9,
+    "deliveryMinutes": 30,
+    "priceLevel": "$",
+    "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.tripadvisor.com/Restaurants-g298251-zfp19-Almaty.html",
+    "tags": [
+      "pub",
+      "european",
+      "snacks",
+      "delivery"
+    ],
+    "menu": [
+      {
+        "id": "chechil-forum-1",
+        "name": "Chechil beer snack",
+        "price": 1890,
+        "calories": 430,
+        "category": "snacks"
+      },
+      {
+        "id": "chechil-forum-2",
+        "name": "Pub burger",
+        "price": 2990,
+        "calories": 750,
+        "category": "burger"
+      },
+      {
+        "id": "chechil-forum-3",
+        "name": "Chicken wings",
+        "price": 2590,
+        "calories": 640,
+        "category": "snacks"
+      },
+      {
+        "id": "chechil-forum-4",
+        "name": "Greek salad",
+        "price": 2290,
+        "calories": 310,
+        "category": "salad"
+      }
+    ]
+  },
+  {
+    "id": "nuala",
+    "name": "Nuala",
+    "cuisine": "mediterranean",
+    "city": "Almaty",
+    "district": "Esentai / business district",
+    "rating": 4.9,
+    "deliveryMinutes": 42,
+    "priceLevel": "$$$$",
+    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.tripadvisor.com/Restaurants-g298251-zfp10954-Almaty.html",
+    "tags": [
+      "fine dining",
+      "pasta",
+      "seafood",
+      "date"
+    ],
+    "menu": [
+      {
+        "id": "nuala-1",
+        "name": "Greek salad",
+        "price": 3300,
+        "calories": 350,
+        "category": "salad"
+      },
+      {
+        "id": "nuala-2",
+        "name": "Seafood pasta",
+        "price": 6900,
+        "calories": 760,
+        "category": "pasta"
+      },
+      {
+        "id": "nuala-3",
+        "name": "Truffle pasta",
+        "price": 6200,
+        "calories": 720,
+        "category": "pasta"
+      },
+      {
+        "id": "nuala-4",
+        "name": "Cheesecake",
+        "price": 2900,
+        "calories": 430,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "seven-bar",
+    "name": "SEVEN Bar and Restaurant",
+    "cuisine": "european",
+    "city": "Almaty",
+    "district": "Dostyk Plaza area",
+    "rating": 4.8,
+    "deliveryMinutes": 45,
+    "priceLevel": "$$$$",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://lepetitchef.com/blog/en/best-restaurants-in-almaty/",
+    "tags": [
+      "view",
+      "steak",
+      "sushi",
+      "fine dining"
+    ],
+    "menu": [
+      {
+        "id": "seven-bar-1",
+        "name": "Mushroom cream soup",
+        "price": 2900,
+        "calories": 360,
+        "category": "soup"
+      },
+      {
+        "id": "seven-bar-2",
+        "name": "Chicken steak",
+        "price": 4200,
+        "calories": 620,
+        "category": "main"
+      },
+      {
+        "id": "seven-bar-3",
+        "name": "Beef medallions",
+        "price": 7200,
+        "calories": 790,
+        "category": "main"
+      },
+      {
+        "id": "seven-bar-4",
+        "name": "Apple tart",
+        "price": 2400,
+        "calories": 390,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "vista",
+    "name": "Vista",
+    "cuisine": "international",
+    "city": "Almaty",
+    "district": "Ritz-Carlton area",
+    "rating": 4.6,
+    "deliveryMinutes": 46,
+    "priceLevel": "$$$$",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.tripadvisor.com/Restaurants-g298251-zfp43-Almaty.html",
+    "tags": [
+      "view",
+      "italian",
+      "international",
+      "date"
+    ],
+    "menu": [
+      {
+        "id": "vista-1",
+        "name": "Margherita pizza",
+        "price": 3600,
+        "calories": 780,
+        "category": "pizza"
+      },
+      {
+        "id": "vista-2",
+        "name": "Beef steak",
+        "price": 7900,
+        "calories": 850,
+        "category": "steak"
+      },
+      {
+        "id": "vista-3",
+        "name": "Sushi set",
+        "price": 5900,
+        "calories": 680,
+        "category": "sushi"
+      },
+      {
+        "id": "vista-4",
+        "name": "Caesar salad",
+        "price": 3100,
+        "calories": 370,
+        "category": "salad"
+      }
+    ]
+  },
+  {
+    "id": "chalet",
+    "name": "Chalet",
+    "cuisine": "european",
+    "city": "Almaty",
+    "district": "Mountain area",
+    "rating": 4.5,
+    "deliveryMinutes": 44,
+    "priceLevel": "$$$",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.tripadvisor.com/Restaurants-g298251-zfp43-Almaty.html",
+    "tags": [
+      "view",
+      "european",
+      "grill",
+      "family"
+    ],
+    "menu": [
+      {
+        "id": "chalet-1",
+        "name": "Mushroom cream soup",
+        "price": 2900,
+        "calories": 360,
+        "category": "soup"
+      },
+      {
+        "id": "chalet-2",
+        "name": "Chicken steak",
+        "price": 4200,
+        "calories": 620,
+        "category": "main"
+      },
+      {
+        "id": "chalet-3",
+        "name": "Beef medallions",
+        "price": 7200,
+        "calories": 790,
+        "category": "main"
+      },
+      {
+        "id": "chalet-4",
+        "name": "Apple tart",
+        "price": 2400,
+        "calories": 390,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "kazakh-restaurant-abay",
+    "name": "Kazakh Restaurant Abay",
+    "cuisine": "kazakh",
+    "city": "Almaty",
+    "district": "Kok-Tobe / mountain view",
+    "rating": 4.4,
+    "deliveryMinutes": 43,
+    "priceLevel": "$$$",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.tripadvisor.com/Restaurants-g298251-zfp43-Almaty.html",
+    "tags": [
+      "kazakh",
+      "barbecue",
+      "view",
+      "national"
+    ],
+    "menu": [
+      {
+        "id": "kazakh-restaurant-abay-1",
+        "name": "Баурсаки",
+        "price": 980,
+        "calories": 420,
+        "category": "bakery"
+      },
+      {
+        "id": "kazakh-restaurant-abay-2",
+        "name": "Самса с мясом",
+        "price": 990,
+        "calories": 360,
+        "category": "bakery"
+      },
+      {
+        "id": "kazakh-restaurant-abay-3",
+        "name": "Салат Ачичук",
+        "price": 1850,
+        "calories": 140,
+        "category": "salad"
+      },
+      {
+        "id": "kazakh-restaurant-abay-4",
+        "name": "Плов праздничный",
+        "price": 3490,
+        "calories": 760,
+        "category": "main"
+      }
+    ]
+  },
+  {
+    "id": "bosphorus",
+    "name": "Bosphorus Restaurant",
+    "cuisine": "turkish",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.7,
+    "deliveryMinutes": 34,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://2gis.kz/almaty/firm/9429940001048991/tab/menu",
+    "tags": [
+      "turkish",
+      "kebab",
+      "halal",
+      "family"
+    ],
+    "menu": [
+      {
+        "id": "bosphorus-1",
+        "name": "Adana kebab",
+        "price": 3490,
+        "calories": 690,
+        "category": "kebab"
+      },
+      {
+        "id": "bosphorus-2",
+        "name": "Lahmacun",
+        "price": 2290,
+        "calories": 520,
+        "category": "bakery"
+      },
+      {
+        "id": "bosphorus-3",
+        "name": "Mercimek soup",
+        "price": 1790,
+        "calories": 280,
+        "category": "soup"
+      },
+      {
+        "id": "bosphorus-4",
+        "name": "Baklava",
+        "price": 1990,
+        "calories": 430,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "alasha",
+    "name": "Alasha",
+    "cuisine": "kazakh",
+    "city": "Almaty",
+    "district": "Almaty outskirts",
+    "rating": 4.5,
+    "deliveryMinutes": 47,
+    "priceLevel": "$$$",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://alasha.kz/en/home-2/",
+    "tags": [
+      "kazakh",
+      "national",
+      "banquet",
+      "family"
+    ],
+    "menu": [
+      {
+        "id": "alasha-1",
+        "name": "Баурсаки",
+        "price": 980,
+        "calories": 420,
+        "category": "bakery"
+      },
+      {
+        "id": "alasha-2",
+        "name": "Самса с мясом",
+        "price": 990,
+        "calories": 360,
+        "category": "bakery"
+      },
+      {
+        "id": "alasha-3",
+        "name": "Салат Ачичук",
+        "price": 1850,
+        "calories": 140,
+        "category": "salad"
+      },
+      {
+        "id": "alasha-4",
+        "name": "Плов праздничный",
+        "price": 3490,
+        "calories": 760,
+        "category": "main"
+      }
+    ]
+  },
+  {
+    "id": "kishlak",
+    "name": "Kishlak",
+    "cuisine": "uzbek",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.4,
+    "deliveryMinutes": 35,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1511690078903-71dc5a49f5e3?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://lepetitchef.com/blog/en/best-restaurants-in-almaty/",
+    "tags": [
+      "uzbek",
+      "plov",
+      "lagman",
+      "comfort"
+    ],
+    "menu": [
+      {
+        "id": "kishlak-1",
+        "name": "Плов чайханский",
+        "price": 3290,
+        "calories": 760,
+        "category": "main"
+      },
+      {
+        "id": "kishlak-2",
+        "name": "Лагман гуйру",
+        "price": 2890,
+        "calories": 690,
+        "category": "noodles"
+      },
+      {
+        "id": "kishlak-3",
+        "name": "Манты с мясом",
+        "price": 2790,
+        "calories": 620,
+        "category": "main"
+      },
+      {
+        "id": "kishlak-4",
+        "name": "Шурпа",
+        "price": 2490,
+        "calories": 430,
+        "category": "soup"
+      }
+    ]
+  },
+  {
+    "id": "tarkhun",
+    "name": "Tarkhun",
+    "cuisine": "kazakh",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.5,
+    "deliveryMinutes": 33,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://lepetitchef.com/blog/en/best-restaurants-in-almaty/",
+    "tags": [
+      "national",
+      "kazakh",
+      "lunch",
+      "halal"
+    ],
+    "menu": [
+      {
+        "id": "tarkhun-1",
+        "name": "Баурсаки",
+        "price": 980,
+        "calories": 420,
+        "category": "bakery"
+      },
+      {
+        "id": "tarkhun-2",
+        "name": "Самса с мясом",
+        "price": 990,
+        "calories": 360,
+        "category": "bakery"
+      },
+      {
+        "id": "tarkhun-3",
+        "name": "Салат Ачичук",
+        "price": 1850,
+        "calories": 140,
+        "category": "salad"
+      },
+      {
+        "id": "tarkhun-4",
+        "name": "Плов праздничный",
+        "price": 3490,
+        "calories": 760,
+        "category": "main"
+      }
+    ]
+  },
+  {
+    "id": "vanilla",
+    "name": "Vanilla",
+    "cuisine": "european",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.4,
+    "deliveryMinutes": 31,
+    "priceLevel": "$$$",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://lepetitchef.com/blog/en/best-restaurants-in-almaty/",
+    "tags": [
+      "european",
+      "dessert",
+      "brunch",
+      "date"
+    ],
+    "menu": [
+      {
+        "id": "vanilla-1",
+        "name": "Mushroom cream soup",
+        "price": 2900,
+        "calories": 360,
+        "category": "soup"
+      },
+      {
+        "id": "vanilla-2",
+        "name": "Chicken steak",
+        "price": 4200,
+        "calories": 620,
+        "category": "main"
+      },
+      {
+        "id": "vanilla-3",
+        "name": "Beef medallions",
+        "price": 7200,
+        "calories": 790,
+        "category": "main"
+      },
+      {
+        "id": "vanilla-4",
+        "name": "Apple tart",
+        "price": 2400,
+        "calories": 390,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "auyl",
+    "name": "Auyl",
+    "cuisine": "kazakh",
+    "city": "Almaty",
+    "district": "Medeu area",
+    "rating": 4.8,
+    "deliveryMinutes": 50,
+    "priceLevel": "$$$$",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.cntravellerme.com/story/the-best-restaurants-in-almaty",
+    "tags": [
+      "neo kazakh",
+      "fine dining",
+      "national",
+      "view"
+    ],
+    "menu": [
+      {
+        "id": "auyl-1",
+        "name": "Баурсаки",
+        "price": 980,
+        "calories": 420,
+        "category": "bakery"
+      },
+      {
+        "id": "auyl-2",
+        "name": "Самса с мясом",
+        "price": 990,
+        "calories": 360,
+        "category": "bakery"
+      },
+      {
+        "id": "auyl-3",
+        "name": "Салат Ачичук",
+        "price": 1850,
+        "calories": 140,
+        "category": "salad"
+      },
+      {
+        "id": "auyl-4",
+        "name": "Плов праздничный",
+        "price": 3490,
+        "calories": 760,
+        "category": "main"
+      }
+    ]
+  },
+  {
+    "id": "cafe-alma",
+    "name": "Cafe Alma",
+    "cuisine": "kazakh",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.5,
+    "deliveryMinutes": 32,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.cntravellerme.com/story/the-best-restaurants-in-almaty",
+    "tags": [
+      "local",
+      "breakfast",
+      "kazakh",
+      "coffee"
+    ],
+    "menu": [
+      {
+        "id": "cafe-alma-1",
+        "name": "Баурсаки",
+        "price": 980,
+        "calories": 420,
+        "category": "bakery"
+      },
+      {
+        "id": "cafe-alma-2",
+        "name": "Самса с мясом",
+        "price": 990,
+        "calories": 360,
+        "category": "bakery"
+      },
+      {
+        "id": "cafe-alma-3",
+        "name": "Салат Ачичук",
+        "price": 1850,
+        "calories": 140,
+        "category": "salad"
+      },
+      {
+        "id": "cafe-alma-4",
+        "name": "Плов праздничный",
+        "price": 3490,
+        "calories": 760,
+        "category": "main"
+      }
+    ]
+  },
+  {
+    "id": "fika",
+    "name": "Fika",
+    "cuisine": "cafe",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.7,
+    "deliveryMinutes": 25,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.cntravellerme.com/story/the-best-restaurants-in-almaty",
+    "tags": [
+      "cafe",
+      "brunch",
+      "coffee",
+      "dessert"
+    ],
+    "menu": [
+      {
+        "id": "fika-1",
+        "name": "Avocado toast",
+        "price": 2490,
+        "calories": 430,
+        "category": "breakfast"
+      },
+      {
+        "id": "fika-2",
+        "name": "Chicken sandwich",
+        "price": 2290,
+        "calories": 520,
+        "category": "sandwich"
+      },
+      {
+        "id": "fika-3",
+        "name": "Latte",
+        "price": 1300,
+        "calories": 160,
+        "category": "drinks"
+      },
+      {
+        "id": "fika-4",
+        "name": "Honey cake",
+        "price": 1800,
+        "calories": 390,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "yurta",
+    "name": "Yurta Restaurant",
+    "cuisine": "contemporary",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.6,
+    "deliveryMinutes": 39,
+    "priceLevel": "$$$",
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.tripadvisor.com/Restaurants-g298251-oa30-Almaty.html",
+    "tags": [
+      "contemporary",
+      "bar",
+      "dinner",
+      "date"
+    ],
+    "menu": [
+      {
+        "id": "yurta-1",
+        "name": "Chef salad",
+        "price": 3900,
+        "calories": 390,
+        "category": "salad"
+      },
+      {
+        "id": "yurta-2",
+        "name": "Duck breast",
+        "price": 7600,
+        "calories": 780,
+        "category": "main"
+      },
+      {
+        "id": "yurta-3",
+        "name": "Truffle fries",
+        "price": 2400,
+        "calories": 520,
+        "category": "sides"
+      },
+      {
+        "id": "yurta-4",
+        "name": "Chocolate fondant",
+        "price": 2900,
+        "calories": 460,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "jz-peking-duck",
+    "name": "J.Z. Peking Duck",
+    "cuisine": "chinese",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.4,
+    "deliveryMinutes": 37,
+    "priceLevel": "$$$",
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.tripadvisor.com/Restaurants-g298251-oa30-Almaty.html",
+    "tags": [
+      "duck",
+      "chinese",
+      "family",
+      "dinner"
+    ],
+    "menu": [
+      {
+        "id": "jz-peking-duck-1",
+        "name": "Peking duck portion",
+        "price": 7900,
+        "calories": 880,
+        "category": "duck"
+      },
+      {
+        "id": "jz-peking-duck-2",
+        "name": "Sweet sour chicken",
+        "price": 3290,
+        "calories": 680,
+        "category": "main"
+      },
+      {
+        "id": "jz-peking-duck-3",
+        "name": "Fried rice",
+        "price": 2390,
+        "calories": 560,
+        "category": "rice"
+      },
+      {
+        "id": "jz-peking-duck-4",
+        "name": "Wonton soup",
+        "price": 2490,
+        "calories": 310,
+        "category": "soup"
+      }
+    ]
+  },
+  {
+    "id": "sumo-san",
+    "name": "Sumo-San",
+    "cuisine": "japanese",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.5,
+    "deliveryMinutes": 36,
+    "priceLevel": "$$$",
+    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.tripadvisor.com/Restaurants-g298251-oa30-Almaty.html",
+    "tags": [
+      "sushi",
+      "japanese",
+      "rolls",
+      "date"
+    ],
+    "menu": [
+      {
+        "id": "sumo-san-1",
+        "name": "Philadelphia roll",
+        "price": 3290,
+        "calories": 470,
+        "category": "rolls"
+      },
+      {
+        "id": "sumo-san-2",
+        "name": "Salmon nigiri set",
+        "price": 3990,
+        "calories": 520,
+        "category": "sushi"
+      },
+      {
+        "id": "sumo-san-3",
+        "name": "Miso soup",
+        "price": 1490,
+        "calories": 170,
+        "category": "soup"
+      },
+      {
+        "id": "sumo-san-4",
+        "name": "Chicken teriyaki",
+        "price": 3590,
+        "calories": 650,
+        "category": "main"
+      }
+    ]
+  },
+  {
+    "id": "agosto-gastro-bar",
+    "name": "Agosto Gastro Bar",
+    "cuisine": "italian",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.4,
+    "deliveryMinutes": 35,
+    "priceLevel": "$$$",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.tripadvisor.com/Restaurants-g298251-c20075-Almaty.html",
+    "tags": [
+      "italian",
+      "bar",
+      "pasta",
+      "pizza"
+    ],
+    "menu": [
+      {
+        "id": "agosto-gastro-bar-1",
+        "name": "Truffle tagliatelle",
+        "price": 3990,
+        "calories": 680,
+        "category": "pasta"
+      },
+      {
+        "id": "agosto-gastro-bar-2",
+        "name": "Margherita pizza",
+        "price": 3290,
+        "calories": 790,
+        "category": "pizza"
+      },
+      {
+        "id": "agosto-gastro-bar-3",
+        "name": "Burrata salad",
+        "price": 3890,
+        "calories": 420,
+        "category": "salad"
+      },
+      {
+        "id": "agosto-gastro-bar-4",
+        "name": "Tiramisu",
+        "price": 1890,
+        "calories": 410,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "la-pasta",
+    "name": "La Pasta",
+    "cuisine": "italian",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.3,
+    "deliveryMinutes": 30,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.tripadvisor.com/Restaurants-g298251-c20075-Almaty.html",
+    "tags": [
+      "pasta",
+      "italian",
+      "pizza",
+      "lunch"
+    ],
+    "menu": [
+      {
+        "id": "la-pasta-1",
+        "name": "Truffle tagliatelle",
+        "price": 3990,
+        "calories": 680,
+        "category": "pasta"
+      },
+      {
+        "id": "la-pasta-2",
+        "name": "Margherita pizza",
+        "price": 3290,
+        "calories": 790,
+        "category": "pizza"
+      },
+      {
+        "id": "la-pasta-3",
+        "name": "Burrata salad",
+        "price": 3890,
+        "calories": 420,
+        "category": "salad"
+      },
+      {
+        "id": "la-pasta-4",
+        "name": "Tiramisu",
+        "price": 1890,
+        "calories": 410,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "olivka",
+    "name": "Olivka",
+    "cuisine": "italian",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.3,
+    "deliveryMinutes": 29,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.tripadvisor.com/Restaurants-g298251-c20075-Almaty.html",
+    "tags": [
+      "italian",
+      "salad",
+      "pasta",
+      "family"
+    ],
+    "menu": [
+      {
+        "id": "olivka-1",
+        "name": "Truffle tagliatelle",
+        "price": 3990,
+        "calories": 680,
+        "category": "pasta"
+      },
+      {
+        "id": "olivka-2",
+        "name": "Margherita pizza",
+        "price": 3290,
+        "calories": 790,
+        "category": "pizza"
+      },
+      {
+        "id": "olivka-3",
+        "name": "Burrata salad",
+        "price": 3890,
+        "calories": 420,
+        "category": "salad"
+      },
+      {
+        "id": "olivka-4",
+        "name": "Tiramisu",
+        "price": 1890,
+        "calories": 410,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "ce-ce",
+    "name": "Ce Ce",
+    "cuisine": "fusion-asian",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.6,
+    "deliveryMinutes": 32,
+    "priceLevel": "$$$",
+    "image": "https://images.unsplash.com/photo-1543826173-1beeb97525d8?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.reddit.com/r/Kazakhstan/comments/1flcdqz/what_are_your_go_to_places_in_almaty_for_good/",
+    "tags": [
+      "fusion",
+      "asian",
+      "noodles",
+      "date"
+    ],
+    "menu": [
+      {
+        "id": "ce-ce-1",
+        "name": "Bao with beef",
+        "price": 2890,
+        "calories": 480,
+        "category": "bao"
+      },
+      {
+        "id": "ce-ce-2",
+        "name": "Wok noodles",
+        "price": 3290,
+        "calories": 680,
+        "category": "noodles"
+      },
+      {
+        "id": "ce-ce-3",
+        "name": "Salmon poke",
+        "price": 4290,
+        "calories": 560,
+        "category": "poke"
+      },
+      {
+        "id": "ce-ce-4",
+        "name": "Mango mochi",
+        "price": 1690,
+        "calories": 240,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "patsatsina",
+    "name": "Patsatsina",
+    "cuisine": "georgian",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.5,
+    "deliveryMinutes": 34,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.reddit.com/r/Kazakhstan/comments/1flcdqz/what_are_your_go_to_places_in_almaty_for_good/",
+    "tags": [
+      "georgian",
+      "khinkali",
+      "khachapuri",
+      "family"
+    ],
+    "menu": [
+      {
+        "id": "patsatsina-1",
+        "name": "Хачапури по-мегрельски",
+        "price": 2200,
+        "calories": 620,
+        "category": "bakery"
+      },
+      {
+        "id": "patsatsina-2",
+        "name": "Хинкали с говядиной",
+        "price": 1900,
+        "calories": 510,
+        "category": "main"
+      },
+      {
+        "id": "patsatsina-3",
+        "name": "Харчо",
+        "price": 3200,
+        "calories": 480,
+        "category": "soup"
+      },
+      {
+        "id": "patsatsina-4",
+        "name": "Куриный шницель",
+        "price": 2400,
+        "calories": 650,
+        "category": "main"
+      }
+    ]
+  },
+  {
+    "id": "unapasta",
+    "name": "Una Pasta",
+    "cuisine": "italian",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.5,
+    "deliveryMinutes": 28,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.reddit.com/r/Kazakhstan/comments/1flcdqz/what_are_your_go_to_places_in_almaty_for_good/",
+    "tags": [
+      "italian",
+      "pasta",
+      "pizza",
+      "quick"
+    ],
+    "menu": [
+      {
+        "id": "unapasta-1",
+        "name": "Truffle tagliatelle",
+        "price": 3990,
+        "calories": 680,
+        "category": "pasta"
+      },
+      {
+        "id": "unapasta-2",
+        "name": "Margherita pizza",
+        "price": 3290,
+        "calories": 790,
+        "category": "pizza"
+      },
+      {
+        "id": "unapasta-3",
+        "name": "Burrata salad",
+        "price": 3890,
+        "calories": 420,
+        "category": "salad"
+      },
+      {
+        "id": "unapasta-4",
+        "name": "Tiramisu",
+        "price": 1890,
+        "calories": 410,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "spiros",
+    "name": "Spiros",
+    "cuisine": "greek",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.4,
+    "deliveryMinutes": 33,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1600803907087-f56d462fd26b?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.reddit.com/r/Kazakhstan/comments/1flcdqz/what_are_your_go_to_places_in_almaty_for_good/",
+    "tags": [
+      "greek",
+      "souvlaki",
+      "salad",
+      "family"
+    ],
+    "menu": [
+      {
+        "id": "spiros-1",
+        "name": "Chicken souvlaki",
+        "price": 3290,
+        "calories": 620,
+        "category": "main"
+      },
+      {
+        "id": "spiros-2",
+        "name": "Gyros pita",
+        "price": 2690,
+        "calories": 590,
+        "category": "wrap"
+      },
+      {
+        "id": "spiros-3",
+        "name": "Greek salad",
+        "price": 2590,
+        "calories": 330,
+        "category": "salad"
+      },
+      {
+        "id": "spiros-4",
+        "name": "Baklava",
+        "price": 1790,
+        "calories": 430,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "roni-pizza",
+    "name": "Roni Pizza",
+    "cuisine": "pizza",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.5,
+    "deliveryMinutes": 26,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.reddit.com/r/Kazakhstan/comments/1flcdqz/what_are_your_go_to_places_in_almaty_for_good/",
+    "tags": [
+      "pizza",
+      "italian",
+      "delivery",
+      "quick"
+    ],
+    "menu": [
+      {
+        "id": "roni-pizza-1",
+        "name": "Pepperoni pizza",
+        "price": 3490,
+        "calories": 860,
+        "category": "pizza"
+      },
+      {
+        "id": "roni-pizza-2",
+        "name": "Four cheese pizza",
+        "price": 3890,
+        "calories": 820,
+        "category": "pizza"
+      },
+      {
+        "id": "roni-pizza-3",
+        "name": "Chicken BBQ pizza",
+        "price": 3690,
+        "calories": 890,
+        "category": "pizza"
+      },
+      {
+        "id": "roni-pizza-4",
+        "name": "Tiramisu",
+        "price": 1890,
+        "calories": 410,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "nedelka-abay",
+    "name": "Nedelka Abay",
+    "cuisine": "cafe",
+    "city": "Almaty",
+    "district": "Abay Avenue",
+    "rating": 4.5,
+    "deliveryMinutes": 24,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.reddit.com/r/Kazakhstan/comments/1flcdqz/what_are_your_go_to_places_in_almaty_for_good/",
+    "tags": [
+      "cafe",
+      "breakfast",
+      "dessert",
+      "coffee"
+    ],
+    "menu": [
+      {
+        "id": "nedelka-abay-1",
+        "name": "Avocado toast",
+        "price": 2490,
+        "calories": 430,
+        "category": "breakfast"
+      },
+      {
+        "id": "nedelka-abay-2",
+        "name": "Chicken sandwich",
+        "price": 2290,
+        "calories": 520,
+        "category": "sandwich"
+      },
+      {
+        "id": "nedelka-abay-3",
+        "name": "Latte",
+        "price": 1300,
+        "calories": 160,
+        "category": "drinks"
+      },
+      {
+        "id": "nedelka-abay-4",
+        "name": "Honey cake",
+        "price": 1800,
+        "calories": 390,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "degirmen",
+    "name": "Degirmen",
+    "cuisine": "turkish-fast",
+    "city": "Almaty",
+    "district": "Almaty center",
+    "rating": 4.4,
+    "deliveryMinutes": 23,
+    "priceLevel": "$",
+    "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.eater.com/dining-out/936672/best-places-to-eat-restaurants-travel-2026",
+    "tags": [
+      "doner",
+      "turkish",
+      "quick",
+      "budget"
+    ],
+    "menu": [
+      {
+        "id": "degirmen-1",
+        "name": "Chicken doner",
+        "price": 1690,
+        "calories": 610,
+        "category": "doner"
+      },
+      {
+        "id": "degirmen-2",
+        "name": "Beef doner",
+        "price": 1990,
+        "calories": 690,
+        "category": "doner"
+      },
+      {
+        "id": "degirmen-3",
+        "name": "Ayran",
+        "price": 690,
+        "calories": 90,
+        "category": "drinks"
+      },
+      {
+        "id": "degirmen-4",
+        "name": "Fries",
+        "price": 990,
+        "calories": 360,
+        "category": "sides"
+      }
+    ]
+  },
+  {
+    "id": "ak-ku-central-cafe",
+    "name": "Akku Central Cafe",
+    "cuisine": "cafe",
+    "city": "Almaty",
+    "district": "Central Almaty",
+    "rating": 4.4,
+    "deliveryMinutes": 27,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.internationaltraveller.com/asia/almaty-food/",
+    "tags": [
+      "cafe",
+      "local",
+      "breakfast",
+      "tea"
+    ],
+    "menu": [
+      {
+        "id": "ak-ku-central-cafe-1",
+        "name": "Avocado toast",
+        "price": 2490,
+        "calories": 430,
+        "category": "breakfast"
+      },
+      {
+        "id": "ak-ku-central-cafe-2",
+        "name": "Chicken sandwich",
+        "price": 2290,
+        "calories": 520,
+        "category": "sandwich"
+      },
+      {
+        "id": "ak-ku-central-cafe-3",
+        "name": "Latte",
+        "price": 1300,
+        "calories": 160,
+        "category": "drinks"
+      },
+      {
+        "id": "ak-ku-central-cafe-4",
+        "name": "Honey cake",
+        "price": 1800,
+        "calories": 390,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "almaty-museum-cafe",
+    "name": "Almaty Museum of Arts Cafe",
+    "cuisine": "cafe",
+    "city": "Almaty",
+    "district": "Museum district",
+    "rating": 4.5,
+    "deliveryMinutes": 30,
+    "priceLevel": "$$$",
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.internationaltraveller.com/asia/almaty-food/",
+    "tags": [
+      "museum",
+      "cafe",
+      "brunch",
+      "coffee"
+    ],
+    "menu": [
+      {
+        "id": "almaty-museum-cafe-1",
+        "name": "Avocado toast",
+        "price": 2490,
+        "calories": 430,
+        "category": "breakfast"
+      },
+      {
+        "id": "almaty-museum-cafe-2",
+        "name": "Chicken sandwich",
+        "price": 2290,
+        "calories": 520,
+        "category": "sandwich"
+      },
+      {
+        "id": "almaty-museum-cafe-3",
+        "name": "Latte",
+        "price": 1300,
+        "calories": 160,
+        "category": "drinks"
+      },
+      {
+        "id": "almaty-museum-cafe-4",
+        "name": "Honey cake",
+        "price": 1800,
+        "calories": 390,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "six-coffee-wine",
+    "name": "Six Coffee + Wine",
+    "cuisine": "cafe",
+    "city": "Almaty",
+    "district": "Abay Avenue 17",
+    "rating": 4.7,
+    "deliveryMinutes": 26,
+    "priceLevel": "$$$",
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://www.wallpaper.com/travel/restaurants/six-coffee-wine-almaty-kazakhstan",
+    "tags": [
+      "coffee",
+      "wine",
+      "brunch",
+      "fusion"
+    ],
+    "menu": [
+      {
+        "id": "six-coffee-wine-1",
+        "name": "Avocado toast",
+        "price": 2490,
+        "calories": 430,
+        "category": "breakfast"
+      },
+      {
+        "id": "six-coffee-wine-2",
+        "name": "Chicken sandwich",
+        "price": 2290,
+        "calories": 520,
+        "category": "sandwich"
+      },
+      {
+        "id": "six-coffee-wine-3",
+        "name": "Latte",
+        "price": 1300,
+        "calories": 160,
+        "category": "drinks"
+      },
+      {
+        "id": "six-coffee-wine-4",
+        "name": "Honey cake",
+        "price": 1800,
+        "calories": 390,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "dubai-mandi",
+    "name": "Dubai Mandi",
+    "cuisine": "middle-eastern",
+    "city": "Almaty",
+    "district": "Almaty",
+    "rating": 4.6,
+    "deliveryMinutes": 34,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://glovoapp.com/en/kz/almaty/categories/restorani_1",
+    "tags": [
+      "mandi",
+      "halal",
+      "rice",
+      "family"
+    ],
+    "menu": [
+      {
+        "id": "dubai-mandi-1",
+        "name": "Chicken mandi",
+        "price": 3990,
+        "calories": 790,
+        "category": "rice"
+      },
+      {
+        "id": "dubai-mandi-2",
+        "name": "Lamb mandi",
+        "price": 4990,
+        "calories": 920,
+        "category": "rice"
+      },
+      {
+        "id": "dubai-mandi-3",
+        "name": "Hummus",
+        "price": 1890,
+        "calories": 310,
+        "category": "starter"
+      },
+      {
+        "id": "dubai-mandi-4",
+        "name": "Kunafa",
+        "price": 2290,
+        "calories": 460,
+        "category": "dessert"
+      }
+    ]
+  },
+  {
+    "id": "bao-sushi-noodles",
+    "name": "BAO Sushi & Noodles Bar",
+    "cuisine": "asian",
+    "city": "Almaty",
+    "district": "Almaty",
+    "rating": 4.5,
+    "deliveryMinutes": 28,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1543826173-1beeb97525d8?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://glovoapp.com/en/kz/almaty/categories/restorani_1",
+    "tags": [
+      "bao",
+      "sushi",
+      "noodles",
+      "delivery"
+    ],
+    "menu": [
+      {
+        "id": "bao-sushi-noodles-1",
+        "name": "Bao beef",
+        "price": 2690,
+        "calories": 470,
+        "category": "bao"
+      },
+      {
+        "id": "bao-sushi-noodles-2",
+        "name": "Salmon roll",
+        "price": 3290,
+        "calories": 490,
+        "category": "rolls"
+      },
+      {
+        "id": "bao-sushi-noodles-3",
+        "name": "Chicken noodles",
+        "price": 2890,
+        "calories": 650,
+        "category": "noodles"
+      },
+      {
+        "id": "bao-sushi-noodles-4",
+        "name": "Miso soup",
+        "price": 1490,
+        "calories": 170,
+        "category": "soup"
+      }
+    ]
+  },
+  {
+    "id": "myeongdong",
+    "name": "Ресторан Мёндон",
+    "cuisine": "korean",
+    "city": "Almaty",
+    "district": "Almaty",
+    "rating": 4.7,
+    "deliveryMinutes": 31,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://glovoapp.com/en/kz/almaty/categories/restorani_1",
+    "tags": [
+      "korean",
+      "bbq",
+      "ramen",
+      "spicy"
+    ],
+    "menu": [
+      {
+        "id": "myeongdong-1",
+        "name": "Кимпаб с говядиной",
+        "price": 3200,
+        "calories": 540,
+        "category": "rolls"
+      },
+      {
+        "id": "myeongdong-2",
+        "name": "Кимпаб с семгой",
+        "price": 3700,
+        "calories": 560,
+        "category": "rolls"
+      },
+      {
+        "id": "myeongdong-3",
+        "name": "Кимчи рамен",
+        "price": 3600,
+        "calories": 720,
+        "category": "ramen"
+      },
+      {
+        "id": "myeongdong-4",
+        "name": "Bibimbap bowl",
+        "price": 3900,
+        "calories": 650,
+        "category": "main"
+      }
+    ]
+  },
+  {
+    "id": "dve-palochki",
+    "name": "Две палочки",
+    "cuisine": "japanese",
+    "city": "Almaty",
+    "district": "Almaty",
+    "rating": 4.4,
+    "deliveryMinutes": 29,
+    "priceLevel": "$$",
+    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://glovoapp.com/en/kz/almaty/categories/restorani_1",
+    "tags": [
+      "sushi",
+      "rolls",
+      "japanese",
+      "delivery"
+    ],
+    "menu": [
+      {
+        "id": "dve-palochki-1",
+        "name": "Philadelphia roll",
+        "price": 3290,
+        "calories": 470,
+        "category": "rolls"
+      },
+      {
+        "id": "dve-palochki-2",
+        "name": "Salmon nigiri set",
+        "price": 3990,
+        "calories": 520,
+        "category": "sushi"
+      },
+      {
+        "id": "dve-palochki-3",
+        "name": "Miso soup",
+        "price": 1490,
+        "calories": 170,
+        "category": "soup"
+      },
+      {
+        "id": "dve-palochki-4",
+        "name": "Chicken teriyaki",
+        "price": 3590,
+        "calories": 650,
+        "category": "main"
+      }
+    ]
+  },
+  {
+    "id": "svoya-kuhnya",
+    "name": "Своя Кухня",
+    "cuisine": "home-cooking",
+    "city": "Almaty",
+    "district": "Almaty",
+    "rating": 4.6,
+    "deliveryMinutes": 25,
+    "priceLevel": "$",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://glovoapp.com/en/kz/almaty/categories/restorani_1",
+    "tags": [
+      "home food",
+      "budget",
+      "lunch",
+      "delivery"
+    ],
+    "menu": [
+      {
+        "id": "svoya-kuhnya-1",
+        "name": "Котлета с пюре",
+        "price": 1890,
+        "calories": 610,
+        "category": "main"
+      },
+      {
+        "id": "svoya-kuhnya-2",
+        "name": "Борщ",
+        "price": 1490,
+        "calories": 320,
+        "category": "soup"
+      },
+      {
+        "id": "svoya-kuhnya-3",
+        "name": "Гречка с курицей",
+        "price": 1990,
+        "calories": 540,
+        "category": "main"
+      },
+      {
+        "id": "svoya-kuhnya-4",
+        "name": "Компот",
+        "price": 590,
+        "calories": 110,
+        "category": "drinks"
+      }
+    ]
+  },
+  {
+    "id": "ata-doner",
+    "name": "Ата донер",
+    "cuisine": "doner",
+    "city": "Almaty",
+    "district": "Almaty",
+    "rating": 4.6,
+    "deliveryMinutes": 22,
+    "priceLevel": "$",
+    "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=1200&q=80",
+    "sourceUrl": "https://glovoapp.com/en/kz/almaty/categories/restorani_1",
+    "tags": [
+      "doner",
+      "fast food",
+      "budget",
+      "quick"
+    ],
+    "menu": [
+      {
+        "id": "ata-doner-1",
+        "name": "Куриный донер",
+        "price": 1490,
+        "calories": 610,
+        "category": "doner"
+      },
+      {
+        "id": "ata-doner-2",
+        "name": "Говяжий донер",
+        "price": 1790,
+        "calories": 690,
+        "category": "doner"
+      },
+      {
+        "id": "ata-doner-3",
+        "name": "Комбо донер",
+        "price": 2490,
+        "calories": 870,
+        "category": "combo"
+      },
+      {
+        "id": "ata-doner-4",
+        "name": "Айран",
+        "price": 590,
+        "calories": 90,
+        "category": "drinks"
+      }
     ]
   }
 ]

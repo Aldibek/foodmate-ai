@@ -1,6 +1,6 @@
 # FoodMate AI
 
-FoodMate AI is a mini food-delivery catalog for a group project. The product works without AI: users can browse real Almaty restaurants, filter by cuisine and delivery time, add dishes to a cart, and create a demo order.
+FoodMate AI is a mini food-delivery catalog for a group project. The product works without AI: users can browse 50 real Almaty restaurants, filter by cuisine and delivery time, add dishes to a cart, type `create order`, enter a delivery address, and create a demo order.
 
 The AI feature improves UX through a tool-using assistant. It calls backend tools to search restaurants, recommend dishes, and build budget-aware suggestions.
 
@@ -14,18 +14,13 @@ The AI feature improves UX through a tool-using assistant. It calls backend tool
 
 ## Data
 
-The catalog uses 10 real Almaty restaurants with approximate menu items and prices from public menu pages:
+The catalog uses 50 real Almaty restaurants with approximate menu items and prices from public menu/listing pages. Source links are available from each restaurant card.
 
-- Chaihana NAVAT
-- Sandyq
-- Дареджани
-- Ocean Basket
-- TomYumBar
-- Korean House
-- Coffee BOOM
-- Rumi
-- Baharat
-- Bauyrdaq Qazaq Fast-food
+- NAVAT, Sandyq, Дареджани, Ocean Basket, TomYumBar, Korean House, Coffee BOOM, Rumi, Baharat, Bauyrdaq
+- Beefeater, Manga Sushi, Tyubeteika, Chechil, Nuala, SEVEN, Vista, Chalet, Alasha, Kishlak
+- Bosphorus, Tarkhun, Vanilla, Auyl, Cafe Alma, Fika, Yurta, J.Z. Peking Duck, Sumo-San, Agosto
+- La Pasta, Olivka, Ce Ce, Patsatsina, Una Pasta, Spiros, Roni Pizza, Nedelka, Degirmen, Akku Central Cafe
+- Six Coffee + Wine, Dubai Mandi, BAO Sushi & Noodles, Мёндон, Две палочки, Своя Кухня, Ата донер, and more
 
 ## Run locally
 

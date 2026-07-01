@@ -3,7 +3,8 @@
 ## Project
 
 FoodMate AI: restaurant and food ordering catalog with filters, cart, backend API, and AI assistant tools.
-The catalog was updated to use 10 real Almaty restaurants with approximate menu items from public menu pages.
+The catalog was updated to use 50 real Almaty restaurants with approximate menu items from public menu/listing pages.
+The order flow requires users to type `create order`, then fill a delivery address modal before the API accepts the order.
 
 ## AI Usage Evidence
 
